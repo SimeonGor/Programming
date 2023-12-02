@@ -60,7 +60,7 @@ public class Scene {
         for (var e: main_character.getAppearances()) {
             System.out.print(e.getDescription() + " ");
         }
-
+        System.out.println();
         System.out.println("На голове у него был " + main_character.getHairstyle().getDescription());
     }
 }
