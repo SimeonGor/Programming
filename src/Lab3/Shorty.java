@@ -81,7 +81,7 @@ public class Shorty {
         if (this == o) return true;
         if (o == null || o.getClass() != this.getClass()) return false;
         Shorty other = ((Shorty) o);
-        return this.name == other.getName() && this.gender == other.gender;
+        return this.name.equals(other.getName()) && this.gender == other.gender;
     }
 
     @Override
