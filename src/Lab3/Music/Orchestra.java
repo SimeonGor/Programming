@@ -1,15 +1,15 @@
 package Lab3.Music;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Vector;
 
 public class Orchestra {
-    private ArrayList<IMusician> musicians = new ArrayList<>();
+    protected List<IMusician> musicians = new Vector<>();
 
     Orchestra() {}
 
-    Orchestra(IMusician[] args) {
-        musicians = new ArrayList<>();
+    Orchestra(IMusician ... args) {
         musicians.addAll(Arrays.asList(args));
     }
 
@@ -22,16 +22,17 @@ public class Orchestra {
         System.out.println("--------");
     }
 
-    public ArrayList<IMusician> getMusicians() {
+    public List<IMusician> getMusicians() {
         return musicians;
     }
 
     public void setMusicians(IMusician ... musicians) {
+        this.musicians.clear();
         this.musicians.addAll(Arrays.asList(musicians));
     }
 
-    public void addMusician(IMusician musician) {
-        this.musicians.add(musician);
+    public void addMusician(IMusician ... musicians) {
+        this.musicians.addAll(Arrays.asList(musicians));
     }
 
     @Override
@@ -49,6 +50,6 @@ public class Orchestra {
 
     @Override
     public String toString() {
-        return "Orchestra " + this.musicians.toArray().length;
+        return "Orchestra " + this.musicians.size();
     }
 }
