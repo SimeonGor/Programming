@@ -1,6 +1,7 @@
 package Lab3;
 
-import Lab3.MusicalInstrument.MusicalInstrument;
+import Lab3.Music.IMusician;
+import Lab3.Thing.MusicalInstrument.MusicalInstrument;
 
 public class Musician extends Shorty implements IMusician {
     protected MusicalInstrument instrument = null;
@@ -22,30 +23,20 @@ public class Musician extends Shorty implements IMusician {
     }
 
     @Override
-    public String play(MusicalInstrument instrument) {
-        return instrument.play();
+    public void playOn(MusicalInstrument instrument) {
+
     }
     @Override
-    public String play() {
-        if (instrument != null) {
-            return (this + " " + play(instrument));
-        }
-        else {
-            return (this + " does not hold a musical instrument");
-        }
+    public void play() {
+
     }
 
     @Override
-    public String hold(MusicalInstrument instrument) {
-        return instrument.hold();
+    public void hold(MusicalInstrument instrument) {
+
     }
     @Override
-    public String hold() {
-        if (instrument != null) {
-            return (this + " " + hold(instrument));
-        }
-        else {
-            return (this + " does not hold a musical instrument");
-        }
+    public void hold() {
+
     }
 }

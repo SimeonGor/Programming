@@ -1,6 +1,6 @@
 package Lab3;
 
-public enum Decoration {
+public enum Decoration implements Dec {
     FLOWERS("flowers"),
     NOTHING("nothing");
 

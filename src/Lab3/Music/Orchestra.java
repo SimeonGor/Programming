@@ -1,8 +1,7 @@
-package Lab3;
+package Lab3.Music;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Objects;
 
 public class Orchestra {
     private ArrayList<IMusician> musicians = new ArrayList<>();
@@ -17,9 +16,10 @@ public class Orchestra {
     public void play() {
         System.out.println("Играет оркестр");
         for (var e : musicians) {
-            System.out.println("\t" + e.play());
+            e.hold();
+            e.play();
         }
-        System.out.println("-----------");
+        System.out.println("--------");
     }
 
     public ArrayList<IMusician> getMusicians() {
@@ -40,5 +40,15 @@ public class Orchestra {
         if (o == null || o.getClass() != this.getClass()) return false;
         Orchestra other = (Orchestra) o;
         return musicians == other.getMusicians();
+    }
+
+    @Override
+    public int hashCode() {
+        return this.musicians.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "Orchestra " + this.musicians.toArray().length;
     }
 }
