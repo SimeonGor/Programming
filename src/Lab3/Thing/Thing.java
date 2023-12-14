@@ -1,7 +1,7 @@
 package Lab3.Thing;
 
 public abstract class Thing implements Ownable {
-    private Owner owner;
+    protected Owner owner;
     @Override
     public void setOwner(Owner o) {
         this.owner = o;
