@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Vector;
 
 public class Orchestra {
-    protected List<IMusician> musicians = new Vector<>();
+    private List<IMusician> musicians = new Vector<>();
 
     Orchestra() {}
 

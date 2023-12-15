@@ -5,8 +5,8 @@ import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior;
 import Lab3.Thing.Thing;
 
 public class Harp extends Thing implements MusicalInstrument {
-    PlayBehavior playBehavior;
-    HoldBehavior holdBehavior;
+    private PlayBehavior playBehavior;
+    private HoldBehavior holdBehavior;
 
 
     Harp(PlayBehavior playBehavior, HoldBehavior holdBehavior) {
