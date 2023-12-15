@@ -30,14 +30,14 @@ public class Shorty extends Person implements Owner {
 
     public void changeClothing(Clothes ... clothing) {
         this.clothing.clear();
+        putOnClothing(clothing);
+    }
+
+    public void putOnClothing(Clothes ... clothing) {
         for (var e : clothing) {
             this.clothing.add(e);
             this.takeThing(e);
         }
-    }
-
-    public void putOnClothing(Clothes ... clothing) {
-        this.clothing.addAll(Arrays.asList((clothing)));
     }
 
     public Place getLocation() {

@@ -10,33 +10,34 @@ public class Musician extends Shorty implements IMusician {
         super(name, gender);
     }
 
-    Musician(MusicalInstrument instrument) {
-        this.instrument = instrument;
-    }
-
-    public void setMusicalInstrument(MusicalInstrument instrument) {
-        this.instrument = instrument;
-    }
-
+    @Override
     public MusicalInstrument getMusicalInstrument() {
         return instrument;
     }
 
     @Override
-    public void playOn(MusicalInstrument instrument) {
+    public void takeMusicalInstrument(MusicalInstrument instrument) {
+        this.instrument = instrument;
+        this.takeThing(instrument);
+    }
 
+    @Override
+    public void playOn(MusicalInstrument instrument) {
+        System.out.println(this + " plays on " + instrument);
+        instrument.play();
     }
     @Override
     public void play() {
-
+        playOn(this.instrument);
     }
 
     @Override
     public void hold(MusicalInstrument instrument) {
-
+        System.out.println(this + " holds " + instrument);
+        instrument.hold();
     }
     @Override
     public void hold() {
-
+        hold(this.instrument);
     }
 }
