@@ -5,13 +5,11 @@ public abstract class Thing implements Ownable {
     @Override
     public void setOwner(Owner o) {
         this.owner = o;
-        o.getThing(this);
     }
 
     @Override
     public void unsetOwner() {
-        owner.unlinkThing(this);
-        owner = null;
+        this.owner = null;
     }
 
     @Override

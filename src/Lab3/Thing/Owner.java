@@ -1,10 +1,9 @@
 package Lab3.Thing;
 
-import java.util.Vector;
+import java.util.List;
 
 public interface Owner {
-    void getThing(Ownable o);
+    void takeThing(Ownable o);
     void unlinkThing(Ownable o);
-
-    Vector<Ownable> getThings();
+    List<Ownable> getThings();
 }
