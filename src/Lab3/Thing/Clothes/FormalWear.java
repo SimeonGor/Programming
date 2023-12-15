@@ -11,7 +11,7 @@ public class FormalWear extends Clothes {
         };
     }
 
-    FormalWear(Type type) {
+    public FormalWear(Type type) {
         this.description = type.description;
     }
 

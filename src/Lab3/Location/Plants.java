@@ -17,7 +17,7 @@ public class Plants implements Decoration {
 
     private Type type;
 
-    Plants(Type type) {
+    public Plants(Type type) {
         this.type = type;
     }
     @Override

@@ -2,7 +2,7 @@ package Lab3.Location;
 
 public class TimeOfDay {
     private final int hours, minutes;
-    TimeOfDay(int hours, int minutes) {
+    public TimeOfDay(int hours, int minutes) {
         this.hours = hours % 24;
         this.minutes = minutes % 60;
     }

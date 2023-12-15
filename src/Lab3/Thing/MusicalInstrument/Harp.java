@@ -9,7 +9,7 @@ public class Harp extends Thing implements MusicalInstrument {
     private HoldBehavior holdBehavior;
 
 
-    Harp(PlayBehavior playBehavior, HoldBehavior holdBehavior) {
+    public Harp(PlayBehavior playBehavior, HoldBehavior holdBehavior) {
         this.playBehavior = playBehavior;
         this.holdBehavior = holdBehavior;
     }

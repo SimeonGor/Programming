@@ -7,9 +7,9 @@ import java.util.Vector;
 public class Orchestra {
     private List<IMusician> musicians = new Vector<>();
 
-    Orchestra() {}
+    public Orchestra() {}
 
-    Orchestra(IMusician ... args) {
+    public Orchestra(IMusician ... args) {
         musicians.addAll(Arrays.asList(args));
     }
 

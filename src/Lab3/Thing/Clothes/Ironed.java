@@ -1,7 +1,7 @@
 package Lab3.Thing.Clothes;
 
 public class Ironed extends ClothesDecorator {
-    Ironed(Clothes clothes) {
+    public Ironed(Clothes clothes) {
         this.clothes = clothes;
     }
 

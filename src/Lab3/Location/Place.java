@@ -9,7 +9,7 @@ public class Place implements Decoratable {
     private List<Decoration> decorations = new Vector<>();
     private TimeOfDay timeOfDay;
 
-    Place(String description, Decoration ... decorations) {
+    public Place(String description, Decoration ... decorations) {
         this.description = description;
         this.setDecorations(decorations);
     }

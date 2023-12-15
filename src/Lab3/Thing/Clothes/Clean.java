@@ -1,7 +1,7 @@
 package Lab3.Thing.Clothes;
 
 public class Clean extends ClothesDecorator {
-    Clean(Clothes clothes) {
+    public Clean(Clothes clothes) {
         this.clothes = clothes;
     }
 
