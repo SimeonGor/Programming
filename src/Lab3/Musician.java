@@ -4,7 +4,7 @@ import Lab3.Music.IMusician;
 import Lab3.Thing.MusicalInstrument.MusicalInstrument;
 
 public class Musician extends Shorty implements IMusician {
-    protected MusicalInstrument instrument = null;
+    private MusicalInstrument instrument = null;
 
     public Musician() {super();}
 
