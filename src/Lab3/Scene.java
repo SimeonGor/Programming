@@ -3,6 +3,7 @@ package Lab3;
 import Lab3.Location.Place;
 import Lab3.Location.Plants;
 import Lab3.Location.TimeOfDay;
+import Lab3.Speech.*;
 import Lab3.Thing.Clothes.*;
 import Lab3.Music.Orchestra;
 
@@ -34,5 +35,6 @@ public class Scene {
         square.setTimeOfDay(new TimeOfDay(16, 30));
 
         main_character.goTo(square);
+        main_character.speak(new Laugh(new BasicSpeech("Hi")));
     }
 }

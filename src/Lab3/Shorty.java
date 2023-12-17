@@ -1,16 +1,16 @@
 package Lab3;
 
 import Lab3.Location.Place;
+import Lab3.Speech.Talkable;
+import Lab3.Speech.Speech;
 import Lab3.Thing.Clothes.Clothes;
 import Lab3.Thing.Ownable;
 import Lab3.Thing.Owner;
-import Lab3.Thing.Thing;
 
 import java.util.List;
-import java.util.Arrays;
 import java.util.Vector;
 
-public class Shorty extends Person implements Owner {
+public class Shorty extends Person implements Owner, Talkable {
     private Place location;
     private List<Ownable> things = new Vector<>();
     private List<Clothes> clothing = new Vector<>();
@@ -75,6 +75,11 @@ public class Shorty extends Person implements Owner {
     @Override
     public List<Ownable> getThings() {
         return this.things;
+    }
+
+    @Override
+    public void speak(Speech speech) {
+        System.out.println(speech.getSpeech());
     }
 
     @Override
