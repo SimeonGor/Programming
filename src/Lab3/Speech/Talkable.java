@@ -1,5 +1,5 @@
 package Lab3.Speech;
 
 public interface Talkable {
-    void speak();
+    void speak(Speech speech);
 }
