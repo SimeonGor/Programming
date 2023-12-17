@@ -11,10 +11,10 @@ import java.util.Arrays;
 import java.util.Vector;
 
 public class Shorty extends Person implements Owner {
-    protected Place location;
-    protected List<Ownable> things = new Vector<>();
-    protected List<Clothes> clothing = new Vector<>();
-    protected Hairstyle hairstyle;
+    private Place location;
+    private List<Ownable> things = new Vector<>();
+    private List<Clothes> clothing = new Vector<>();
+    private Hairstyle hairstyle;
 
     public Shorty() {
         super();
@@ -34,9 +34,11 @@ public class Shorty extends Person implements Owner {
     }
 
     public void putOnClothing(Clothes ... clothing) {
+        System.out.println(this + "is changing clothes for ...");
         for (var e : clothing) {
             this.clothing.add(e);
             this.takeThing(e);
+            System.out.println("\t " + e);
         }
     }
 
@@ -45,10 +47,12 @@ public class Shorty extends Person implements Owner {
     }
 
     public void goTo(Place location) {
+        System.out.println(this + "is going to " + location);
         this.location = location;
     }
 
     public void doHairstyle(Hairstyle hairstyle) {
+        System.out.println(this + " makes " + hairstyle);
         this.hairstyle = hairstyle;
     }
 
@@ -75,6 +79,6 @@ public class Shorty extends Person implements Owner {
 
     @Override
     public String toString() {
-        return (gender == Gender.MALE ? "коротышка" : "малышка") + " " + name;
+        return (getGender() == Gender.MALE ? "коротышка" : "малышка") + " " + getName();
     }
 }

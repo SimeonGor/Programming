@@ -8,6 +8,6 @@ public class HoldOnLap implements HoldBehavior {
 
     @Override
     public String toString() {
-        return "holds on lap";
+        return "is held on the laps";
     }
 }

@@ -11,4 +11,9 @@ public abstract class Clothes extends Thing {
     }
 
     public abstract double getBonusCharm();
+
+    @Override
+    public String toString() {
+        return getDescription();
+    }
 }

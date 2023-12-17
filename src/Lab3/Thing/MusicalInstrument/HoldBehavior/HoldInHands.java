@@ -8,6 +8,6 @@ public class HoldInHands implements HoldBehavior {
 
     @Override
     public String toString() {
-        return "holds in hands";
+        return "is held in the hands";
     }
 }

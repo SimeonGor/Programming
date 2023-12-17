@@ -6,7 +6,9 @@ import Lab3.Thing.MusicalInstrument.MusicalInstrument;
 public class Musician extends Shorty implements IMusician {
     protected MusicalInstrument instrument = null;
 
-    Musician(String name, Gender gender) {
+    public Musician() {super();}
+
+    public Musician(String name, Gender gender) {
         super(name, gender);
     }
 

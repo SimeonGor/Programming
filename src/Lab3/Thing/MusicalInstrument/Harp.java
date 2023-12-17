@@ -40,6 +40,6 @@ public class Harp extends Thing implements MusicalInstrument {
 
     @Override
     public String toString() {
-        return "Harp" + holdBehavior.toString() + playBehavior.toString();
+        return "The harp that " + holdBehavior.toString() + " and " + playBehavior.toString();
     }
 }

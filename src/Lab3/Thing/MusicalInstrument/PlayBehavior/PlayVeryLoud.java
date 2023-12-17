@@ -8,6 +8,6 @@ public class PlayVeryLoud implements PlayBehavior {
 
     @Override
     public String toString() {
-        return "plays very loud";
+        return "is playing very loud";
     }
 }

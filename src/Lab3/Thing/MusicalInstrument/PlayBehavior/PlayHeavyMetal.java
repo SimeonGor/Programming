@@ -8,6 +8,6 @@ public class PlayHeavyMetal implements PlayBehavior {
 
     @Override
     public String toString() {
-        return "plays heavy metal";
+        return "is playing heavy metal";
     }
 }

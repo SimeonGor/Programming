@@ -65,5 +65,17 @@ public class Place implements Decoratable {
                 && this.description.equals(other.description);
     }
 
+    @Override
+    public String toString() {
+        String str = getDescription() + " decorated with";
+        for (var e : decorations) {
+            str += " " + e;
+        }
+        return str;
+    }
 
+    @Override
+    public int hashCode() {
+        return (this.decorations.hashCode() << 2) + (this.timeOfDay.hashCode() << 1) + this.description.hashCode();
+    }
 }

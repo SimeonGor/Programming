@@ -43,4 +43,14 @@ public class Plants implements Decoration {
         if (o == null || o.getClass() != this.getClass()) return false;
         return ((Plants) o).getType() == this.getType();
     }
+
+    @Override
+    public int hashCode() {
+        return type.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return type.description;
+    }
 }

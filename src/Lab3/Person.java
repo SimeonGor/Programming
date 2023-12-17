@@ -7,8 +7,8 @@ public abstract class Person {
         MALE,
         FEMALE;
     }
-    protected String name;
-    protected Gender gender;
+    private String name;
+    private Gender gender;
 
     public Person() {
         this("Unnamed", ((new Random()).nextBoolean() ? Gender.FEMALE : Gender.MALE));

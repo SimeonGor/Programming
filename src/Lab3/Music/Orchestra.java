@@ -16,8 +16,8 @@ public class Orchestra {
     public void play() {
         System.out.println("Играет оркестр");
         for (var e : musicians) {
-            e.hold();
             e.play();
+            System.out.println();
         }
         System.out.println("--------");
     }

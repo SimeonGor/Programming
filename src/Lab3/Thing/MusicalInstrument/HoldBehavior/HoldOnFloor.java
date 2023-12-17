@@ -8,6 +8,6 @@ public class HoldOnFloor implements HoldBehavior {
 
     @Override
     public String toString() {
-        return "holds on floor";
+        return "is held on the floor";
     }
 }
