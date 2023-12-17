@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/simeongor/Documents/java_codes/Programming</OriginalElement>
+  <nodes>
+    <node x="3827.8471659918987" y="438.0">Lab3.Hairstyle</node>
+    <node x="741.0" y="1020.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly</node>
+    <node x="3448.7638326585657" y="354.0">Lab3.Location.Place</node>
+    <node x="1926.7449392712501" y="-225.0">Lab3.Thing.Ownable</node>
+    <node x="2110.1153846153816" y="474.0">Lab3.Thing.Clothes.Clothes</node>
+    <node x="-117.03711201079841" y="1453.0">Lab3.HarpFactory</node>
+    <node x="28.0" y="1020.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayHeavyMetal</node>
+    <node x="572.0" y="1020.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly</node>
+    <node x="1510.3888326585657" y="115.0">Lab3.Thing.Thing</node>
+    <node x="666.7727732793512" y="524.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior</node>
+    <node x="1192.0" y="1020.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap</node>
+    <node x="2540.1388326585657" y="1368.0">Lab3.Location.Plants</node>
+    <node x="1532.0" y="1020.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor</node>
+    <node x="2065.8378879892016" y="1019.0">Lab3.Thing.Clothes.ClothesDecorator</node>
+    <node x="2889.6666666666665" y="512.0">Lab3.Thing.MusicalInstrument.MusicalInstrument</node>
+    <node x="3684.4166666666665" y="1914.0">Lab3.Main</node>
+    <node x="1583.3888326585657" y="-62.0">Lab3.Thing.Owner</node>
+    <node x="3075.2638326585657" y="1368.0">Lab3.Musician</node>
+    <node x="910.0" y="959.0">Lab3.Thing.MusicalInstrument.Harp</node>
+    <node x="2979.2638326585657" y="985.0">Lab3.Music.IMusician</node>
+    <node x="403.0" y="1020.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly</node>
+    <node x="1311.5782726045836" y="524.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior</node>
+    <node x="1361.0" y="1020.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands</node>
+    <node x="224.0" y="1020.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud</node>
+    <node x="2314.1388326585657" y="1441.0">Lab3.Thing.Clothes.Ironed</node>
+    <node x="2549.1388326585657" y="959.0">Lab3.Location.Plants.Type</node>
+    <node x="3515.0138326585657" y="129.0">Lab3.Location.Decoratable</node>
+    <node x="3379.375" y="-38.0">Lab3.Location.Decoration</node>
+    <node x="3976.573717948715" y="115.0">Lab3.Person.Gender</node>
+    <node x="2809.1388326585657" y="1356.0">Lab3.Music.Orchestra</node>
+    <node x="3616.0878879892016" y="851.0">Lab3.Shorty</node>
+    <node x="3673.4166666666665" y="1701.0">Lab3.Scene</node>
+    <node x="3160.7403846153816" y="103.0">Lab3.Location.TimeOfDay</node>
+    <node x="2089.1388326585657" y="1441.0">Lab3.Thing.Clothes.Dirty</node>
+    <node x="1639.1388326585657" y="1453.0">Lab3.Thing.Clothes.FormalWear</node>
+    <node x="1864.1388326585657" y="1441.0">Lab3.Thing.Clothes.Clean</node>
+    <node x="-171.0" y="971.0">Lab3.HarpFactory.Type</node>
+    <node x="1740.375" y="983.0">Lab3.Thing.Clothes.FormalWear.Type</node>
+    <node x="4049.8471659918987" y="402.0">Lab3.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Lab3.Musician" target="Lab3.Shorty" relationship="GENERALIZATION">
+      <point x="171.0" y="-15.0" />
+      <point x="3738.0878879892016" y="1482.5" />
+      <point x="0.0" y="225.5" />
+    </edge>
+    <edge source="Lab3.Location.Plants" target="Lab3.Location.Decoration" relationship="REALIZATION">
+      <point x="81.0" y="-129.5" />
+      <point x="2745.6388326585657" y="-6.5" />
+      <point x="-124.5" y="0.0" />
+    </edge>
+    <edge source="Lab3.Person" target="Lab3.Person.Gender" relationship="TO_ONE">
+      <point x="0.0" y="-153.5" />
+      <point x="76.27344804318363" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.MusicalInstrument" target="Lab3.Thing.Ownable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-43.5" />
+      <point x="2986.6666666666665" y="-169.5" />
+      <point x="95.0" y="0.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Clean" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="1.6734143423491332E-4" y="-56.5" />
+      <point x="1966.639" y="1390.0" />
+      <point x="2273.338" y="1390.0" />
+      <point x="60.72261538461862" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.FormalWear" target="Lab3.Thing.Clothes.FormalWear.Type" relationship="DEPENDENCY">
+      <point x="88.23616734143434" y="-44.5" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="1266.5" y="975.0" />
+      <point x="1389.578" y="975.0" />
+      <point x="-2.726045836425328E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Music.Orchestra" relationship="TO_ONE">
+      <point x="-94.0" y="-29.0" />
+      <point x="2945.1388326585657" y="1753.5" />
+      <point x="15.0" y="141.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor" relationship="CREATE">
+      <point x="-60.0" y="44.5" />
+      <point x="-80.53711201079841" y="1768.5" />
+      <point x="1606.5" y="1768.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Thing.Thing" target="Lab3.Thing.Ownable" relationship="REALIZATION">
+      <point x="95.0" y="0.0" />
+      <point x="2017.0" y="196.5" />
+      <point x="-4.744939271250132" y="55.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Clothes.Clothes" relationship="TO_MANY">
+      <point x="1.1201079860256868E-4" y="-225.5" />
+      <point x="3738.088" y="804.0" />
+      <point x="2212.615" y="804.0" />
+      <point x="-3.8461538179035415E-4" y="81.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Place" relationship="CREATE">
+      <point x="0.0" y="-81.5" />
+      <point x="3767.4166666666665" y="1420.5" />
+      <point x="3581.2638326585657" y="1420.5" />
+      <point x="0.0" y="201.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Shorty" relationship="TO_ONE">
+      <point x="30.0" y="-81.5" />
+      <point x="59.328778677464925" y="225.5" />
+    </edge>
+    <edge source="Lab3.Person.Gender" target="Lab3.Person" relationship="INNER_CLASS">
+      <point x="91.27344804318363" y="81.5" />
+      <point x="15.0" y="-153.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly" relationship="CREATE">
+      <point x="96.5" y="30.0" />
+      <point x="646.5" y="1527.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Music.IMusician" target="Lab3.Thing.MusicalInstrument.MusicalInstrument" relationship="DEPENDENCY">
+      <point x="-163.5" y="-91.5" />
+      <point x="0.09716599189914632" y="43.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Ironed" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="1.67341434462287E-4" y="-56.5" />
+      <point x="2416.639" y="1390.0" />
+      <point x="2273.338" y="1390.0" />
+      <point x="60.72261538461862" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Dirty" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="1.67341434462287E-4" y="-56.5" />
+      <point x="2191.639" y="1390.0" />
+      <point x="2273.338" y="1390.0" />
+      <point x="60.72261538461862" y="81.5" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.TimeOfDay" relationship="TO_ONE">
+      <point x="-132.5" y="0.0" />
+      <point x="3257.7403846153816" y="555.5" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Music.IMusician" relationship="REALIZATION">
+      <point x="-96.0" y="-129.5" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="Lab3.Location.Decoratable" target="Lab3.Location.Decoration" relationship="DEPENDENCY">
+      <point x="-125.0" y="-67.5" />
+      <point x="18.63883265856566" y="31.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Person.Gender" relationship="DEPENDENCY">
+      <point x="171.00016734143446" y="0.0" />
+      <point x="3434.0" y="1497.5" />
+      <point x="3434.0" y="336.5" />
+      <point x="4073.074" y="336.5" />
+      <point x="2.820512850121304E-4" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="815.5" y="981.0" />
+      <point x="742.773" y="981.0" />
+      <point x="2.2672064881135157E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap" relationship="CREATE">
+      <point x="-30.0" y="44.5" />
+      <point x="-50.53711201079841" y="1738.5" />
+      <point x="1266.5" y="1738.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.FormalWear" target="Lab3.Thing.Clothes.Clothes" relationship="GENERALIZATION">
+      <point x="6.236167341434339" y="-44.5" />
+      <point x="1747.875" y="1211.5" />
+      <point x="2017.0" y="1211.5" />
+      <point x="2017.0" y="555.5" />
+      <point x="-102.50038461538179" y="0.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Clothes" target="Lab3.Thing.Thing" relationship="GENERALIZATION">
+      <point x="-3.8461538179035415E-4" y="-81.5" />
+      <point x="2212.615" y="376.0" />
+      <point x="1605.389" y="376.0" />
+      <point x="1.6734143423491332E-4" y="81.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Hairstyle" relationship="DEPENDENCY">
+      <point x="94.0" y="-15.0" />
+      <point x="3928.8471659918987" y="1767.5" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.TimeOfDay" relationship="CREATE">
+      <point x="94.0" y="0.0" />
+      <point x="4296.347165991899" y="1782.5" />
+      <point x="4296.347165991899" y="-121.5" />
+      <point x="3257.7403846153816" y="-121.5" />
+      <point x="0.0" y="-93.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.ClothesDecorator" target="Lab3.Thing.Clothes.Clothes" relationship="TO_ONE">
+      <point x="1.1201079860256868E-4" y="-57.5" />
+      <point x="2160.838" y="804.0" />
+      <point x="2212.615" y="804.0" />
+      <point x="-3.8461538179035415E-4" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.Thing" target="Lab3.Thing.Owner" relationship="TO_ONE">
+      <point x="87.0" y="-81.5" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.Decoration" relationship="TO_MANY">
+      <point x="-83.75" y="-201.5" />
+      <point x="-6.361167341434339" y="31.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="477.5" y="981.0" />
+      <point x="742.773" y="981.0" />
+      <point x="2.2672064881135157E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.ClothesDecorator" target="Lab3.Thing.Clothes.Clothes" relationship="GENERALIZATION">
+      <point x="-94.9998879892014" y="0.0" />
+      <point x="2017.0" y="1076.5" />
+      <point x="2017.0" y="555.5" />
+      <point x="-102.50038461538179" y="0.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="TO_ONE">
+      <point x="-15.0" y="-117.5" />
+      <point x="1026.0" y="555.5" />
+      <point x="76.0" y="0.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="303.5" y="981.0" />
+      <point x="742.773" y="981.0" />
+      <point x="2.2672064881135157E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Music.Orchestra" target="Lab3.Music.IMusician" relationship="TO_MANY">
+      <point x="56.625" y="-141.5" />
+      <point x="-163.5" y="91.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands" relationship="CREATE">
+      <point x="-45.0" y="44.5" />
+      <point x="-65.53711201079841" y="1753.5" />
+      <point x="1436.5" y="1753.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.Decoratable" relationship="REALIZATION">
+      <point x="66.25" y="-201.5" />
+      <point x="0.0" y="67.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="1436.5" y="975.0" />
+      <point x="1389.578" y="975.0" />
+      <point x="-2.726045836425328E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Main" target="Lab3.Scene" relationship="CREATE">
+      <point x="0.0" y="-44.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Ironed" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="-14.999832658565538" y="-56.5" />
+      <point x="2401.639" y="1416.0" />
+      <point x="2160.838" y="1416.0" />
+      <point x="1.1201079860256868E-4" y="57.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Ownable" relationship="TO_MANY">
+      <point x="122.0" y="0.0" />
+      <point x="4326.347165991899" y="1076.5" />
+      <point x="4326.347165991899" y="-272.5" />
+      <point x="2021.7449392712501" y="-272.5" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Shorty" relationship="CREATE">
+      <point x="15.0" y="-81.5" />
+      <point x="44.328778677464925" y="225.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="1606.5" y="975.0" />
+      <point x="1389.578" y="975.0" />
+      <point x="-2.726045836425328E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Owner" relationship="REALIZATION">
+      <point x="59.42594466936407" y="-225.5" />
+      <point x="3797.5138326585657" y="-257.5" />
+      <point x="1677.3888326585657" y="-257.5" />
+      <point x="-15.0" y="-55.5" />
+    </edge>
+    <edge source="Lab3.Thing.Owner" target="Lab3.Thing.Ownable" relationship="DEPENDENCY">
+      <point x="15.0" y="-55.5" />
+      <point x="1707.3888326585657" y="-154.5" />
+      <point x="-95.0" y="15.0" />
+    </edge>
+    <edge source="Lab3.Thing.Ownable" target="Lab3.Thing.Owner" relationship="DEPENDENCY">
+      <point x="-95.0" y="0.0" />
+      <point x="1692.3888326585657" y="-169.5" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Musician" relationship="CREATE">
+      <point x="-29.328778677464925" y="-81.5" />
+      <point x="3738.0878879892016" y="1512.5" />
+      <point x="171.0" y="15.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Location.Place" relationship="TO_ONE">
+      <point x="15.000112010798603" y="-225.5" />
+      <point x="3753.088" y="555.5" />
+      <point x="132.5" y="0.0" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.Harp" relationship="CREATE">
+      <point x="-15.0" y="44.5" />
+      <point x="-35.53711201079841" y="1723.5" />
+      <point x="1041.0" y="1723.5" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory.Type" target="Lab3.HarpFactory" relationship="INNER_CLASS">
+      <point x="60.96288798920159" y="105.5" />
+      <point x="0.0" y="-44.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.Clean" relationship="CREATE">
+      <point x="-94.0" y="16.0" />
+      <point x="1966.6388326585657" y="1798.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayHeavyMetal" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="116.0" y="981.0" />
+      <point x="742.773" y="981.0" />
+      <point x="2.2672064881135157E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Location.Plants.Type" target="Lab3.Location.Plants" relationship="INNER_CLASS">
+      <point x="26.0" y="117.5" />
+      <point x="0.0" y="-129.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Person.Gender" relationship="DEPENDENCY">
+      <point x="-121.9998879892014" y="0.0" />
+      <point x="3434.0" y="1076.5" />
+      <point x="3434.0" y="336.5" />
+      <point x="4073.074" y="336.5" />
+      <point x="2.820512850121304E-4" y="81.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.MusicalInstrument.MusicalInstrument" relationship="REALIZATION">
+      <point x="-30.0" y="-117.5" />
+      <point x="1011.0" y="-242.5" />
+      <point x="3001.6666666666665" y="-242.5" />
+      <point x="15.0" y="-43.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.FormalWear.Type" target="Lab3.Thing.Clothes.FormalWear" relationship="INNER_CLASS">
+      <point x="-15.0" y="93.5" />
+      <point x="73.23616734143434" y="-44.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Music.Orchestra" relationship="CREATE">
+      <point x="-94.0" y="-44.0" />
+      <point x="2960.1388326585657" y="1738.5" />
+      <point x="30.0" y="141.5" />
+    </edge>
+    <edge source="Lab3.Location.Plants" target="Lab3.Location.Plants.Type" relationship="TO_ONE">
+      <point x="15.0" y="-129.5" />
+      <point x="41.0" y="117.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.Thing" relationship="GENERALIZATION">
+      <point x="0.0" y="-117.5" />
+      <point x="1041.0" y="376.0" />
+      <point x="1605.389" y="376.0" />
+      <point x="1.6734143423491332E-4" y="81.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly" relationship="CREATE">
+      <point x="96.5" y="15.0" />
+      <point x="477.5" y="1512.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Clean" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="-14.999832658565765" y="-56.5" />
+      <point x="1951.639" y="1416.0" />
+      <point x="2160.838" y="1416.0" />
+      <point x="1.1201079860256868E-4" y="57.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Thing.MusicalInstrument.MusicalInstrument" relationship="TO_ONE">
+      <point x="140.61116734143434" y="-129.5" />
+      <point x="3386.875" y="570.5" />
+      <point x="97.0" y="15.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.HarpFactory" relationship="CREATE">
+      <point x="-94.0" y="1.0" />
+      <point x="-95.53711201079841" y="1783.5" />
+      <point x="-75.0" y="44.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Plants" relationship="CREATE">
+      <point x="-94.0" y="31.0" />
+      <point x="2664.6388326585657" y="1813.5" />
+      <point x="0.0" y="129.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud" relationship="CREATE">
+      <point x="96.5" y="0.0" />
+      <point x="303.5" y="1497.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Hairstyle" relationship="TO_ONE">
+      <point x="114.5" y="-225.5" />
+      <point x="-76.2592780026971" y="117.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly" relationship="CREATE">
+      <point x="0.0" y="44.5" />
+      <point x="-20.53711201079841" y="1708.5" />
+      <point x="815.5" y="1708.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="TO_ONE">
+      <point x="15.0" y="-117.5" />
+      <point x="1056.0" y="555.5" />
+      <point x="-78.0" y="0.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Person" relationship="GENERALIZATION">
+      <point x="122.0" y="-15.0" />
+      <point x="4149.347165991899" y="1061.5" />
+      <point x="0.0" y="153.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.FormalWear" relationship="CREATE">
+      <point x="-94.0" y="-14.0" />
+      <point x="1741.6388326585657" y="1768.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.HarpFactory.Type" relationship="DEPENDENCY">
+      <point x="15.0" y="-44.5" />
+      <point x="75.96288798920159" y="105.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Dirty" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="-14.999832658565538" y="-56.5" />
+      <point x="2176.639" y="1416.0" />
+      <point x="2160.838" y="1416.0" />
+      <point x="1.1201079860256868E-4" y="57.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="646.5" y="981.0" />
+      <point x="742.773" y="981.0" />
+      <point x="2.2672064881135157E-4" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Person" relationship="DEPENDENCY">
+      <point x="94.0" y="15.0" />
+      <point x="4311.347165991899" y="1797.5" />
+      <point x="4311.347165991899" y="555.5" />
+      <point x="99.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.35813821926314393" showDependencies="true" x="4487.789155567587" y="1523.1315420492301" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
