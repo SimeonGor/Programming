@@ -52,7 +52,7 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     public void doHairstyle(Hairstyle hairstyle) {
-        System.out.println(this + " makes " + hairstyle);
+        System.out.println(this + " do " + hairstyle);
         this.hairstyle = hairstyle;
     }
 
