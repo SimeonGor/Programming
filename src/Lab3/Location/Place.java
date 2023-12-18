@@ -71,6 +71,7 @@ public class Place implements Decoratable {
         for (var e : decorations) {
             str += " " + e;
         }
+        str += " at " + timeOfDay;
         return str;
     }
 
