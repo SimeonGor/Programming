@@ -50,6 +50,6 @@ public class Orchestra {
 
     @Override
     public String toString() {
-        return "Orchestra " + this.musicians.size();
+        return "Orchestra of " + this.musicians.size() + " musicians";
     }
 }

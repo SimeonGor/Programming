@@ -7,7 +7,6 @@ import Lab3.Speech.*;
 import Lab3.Thing.Clothes.*;
 import Lab3.Music.Orchestra;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
@@ -15,11 +14,26 @@ public class Scene {
     private Orchestra orchestra;
     private Shorty main_character;
     public void init() {
-        HarpFactory harpFactory = new HarpFactory();
+        HarpFactory harpFactory = new SimpleHarpFactory();
         List<Musician> musicianList = new Vector<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             Musician t = new Musician("Unnamed", Person.Gender.FEMALE);
-            t.takeMusicalInstrument(harpFactory.createHarp(HarpFactory.Type.LITTLE));
+            t.takeMusicalInstrument(harpFactory.createHarp("little"));
+            musicianList.add(t);
+        }
+        for (int i = 0; i < 3; i++) {
+            Musician t = new Musician("Unnamed", Person.Gender.FEMALE);
+            t.takeMusicalInstrument(harpFactory.createHarp("middle"));
+            musicianList.add(t);
+        }
+        for (int i = 0; i < 1; i++) {
+            Musician t = new Musician("Unnamed", Person.Gender.FEMALE);
+            t.takeMusicalInstrument(harpFactory.createHarp("big"));
+            musicianList.add(t);
+        }
+        for (int i = 0; i < 1; i++) {
+            Musician t = new Musician("Unnamed", Person.Gender.FEMALE);
+            t.takeMusicalInstrument(harpFactory.createHarp("huge"));
             musicianList.add(t);
         }
         orchestra = new Orchestra(musicianList.toArray(new Musician[0]));
@@ -29,7 +43,8 @@ public class Scene {
         main_character.changeClothing(new Clean(new FormalWear(FormalWear.Type.SHIRT)));
     }
 
-    public void main() {
+    public void start() {
+        System.out.println(orchestra);
         orchestra.play();
         Place square = new Place("площадка", new Plants(Plants.Type.TREES));
         square.setTimeOfDay(new TimeOfDay(16, 30));

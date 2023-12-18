@@ -34,7 +34,7 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     public void putOnClothing(Clothes ... clothing) {
-        System.out.println(this + "is changing clothes for ...");
+        System.out.println(this + " is changing clothes for ...");
         for (var e : clothing) {
             this.clothing.add(e);
             this.takeThing(e);
@@ -47,7 +47,7 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     public void goTo(Place location) {
-        System.out.println(this + "is going to " + location);
+        System.out.println(this + " is going to " + location);
         this.location = location;
     }
 
