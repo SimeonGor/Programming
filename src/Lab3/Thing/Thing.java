@@ -4,7 +4,7 @@ public abstract class Thing implements Ownable {
     private Owner owner;
     @Override
     public void setOwner(Owner o) throws StealingException {
-        if (owner != null) {
+        if (owner != null && owner != o) {
             throw new StealingException(o, this);
         }
         this.owner = o;

@@ -13,8 +13,8 @@ import java.util.Vector;
 
 public class Shorty extends Person implements Owner, Talkable {
     private Place location;
-    private List<Ownable> things = new Vector<>();
-    private List<Clothes> clothing = new Vector<>();
+    private final List<Ownable> things = new Vector<>();
+    private final List<Clothes> clothing = new Vector<>();
     private Hairstyle hairstyle;
 
     public Shorty() {
@@ -30,6 +30,7 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     public void setClothing(Clothes ... clothing) throws StealingException {
+        System.out.println(this + " is changing clothes for ...");
         for (var e : this.clothing) {
             this.unlinkThing(e);
         }
@@ -38,11 +39,14 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     public void addClothing(Clothes ... clothing) throws StealingException {
-        System.out.println(this + " is changing clothes for ...");
+        System.out.println(this + " is putting on ...");
+        for (var e: clothing) {
+            System.out.println("\t" + e);
+        }
+
         for (var e : clothing) {
-            this.clothing.add(e);
             this.takeThing(e);
-            System.out.println("\t " + e);
+            this.clothing.add(e);
         }
     }
 
@@ -66,14 +70,14 @@ public class Shorty extends Person implements Owner, Talkable {
 
     @Override
     public void takeThing(Ownable o) throws StealingException {
-        this.things.add(o);
         o.setOwner(this);
+        this.things.add(o);
     }
 
     @Override
     public void unlinkThing(Ownable o) {
-        this.things.remove(o);
         o.unsetOwner();
+        this.things.remove(o);
     }
 
     @Override
@@ -82,8 +86,9 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     @Override
-    public void speak(Speech speech) {
+    public Speech speak(Speech speech) {
         System.out.println(speech.getSpeech());
+        return speech;
     }
 
     @Override
