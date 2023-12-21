@@ -4,6 +4,7 @@ import Lab3.Location.Place;
 import Lab3.Location.Plants;
 import Lab3.Thing.Clothes.*;
 import Lab3.Music.Orchestra;
+import Lab3.Thing.Food.*;
 import Lab3.Thing.StealingException;
 
 import java.util.Collections;
@@ -56,5 +57,7 @@ public class Scene {
 //        square.setTimeOfDay(new Place.TimeOfDay(16, 30));
 //
 //        gvozdik.goTo(square);
+
+        System.out.println(new Baked(new BasicFood("potato", 14., BasicFood.Type.VEGETABLE)));
     }
 }
