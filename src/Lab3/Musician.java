@@ -2,6 +2,7 @@ package Lab3;
 
 import Lab3.Music.IMusician;
 import Lab3.Thing.MusicalInstrument.MusicalInstrument;
+import Lab3.Thing.StealingException;
 
 public class Musician extends Shorty implements IMusician {
     private MusicalInstrument instrument = null;
@@ -18,7 +19,7 @@ public class Musician extends Shorty implements IMusician {
     }
 
     @Override
-    public void takeMusicalInstrument(MusicalInstrument instrument) {
+    public void takeMusicalInstrument(MusicalInstrument instrument) throws StealingException {
         this.instrument = instrument;
         this.takeThing(instrument);
     }

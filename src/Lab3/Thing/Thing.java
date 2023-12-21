@@ -3,7 +3,10 @@ package Lab3.Thing;
 public abstract class Thing implements Ownable {
     private Owner owner;
     @Override
-    public void setOwner(Owner o) {
+    public void setOwner(Owner o) throws StealingException {
+        if (owner != null) {
+            throw new StealingException(o, this);
+        }
         this.owner = o;
     }
 

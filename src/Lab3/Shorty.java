@@ -6,6 +6,7 @@ import Lab3.Speech.Speech;
 import Lab3.Thing.Clothes.Clothes;
 import Lab3.Thing.Ownable;
 import Lab3.Thing.Owner;
+import Lab3.Thing.StealingException;
 
 import java.util.List;
 import java.util.Vector;
@@ -28,12 +29,12 @@ public class Shorty extends Person implements Owner, Talkable {
         return clothing;
     }
 
-    public void changeClothing(Clothes ... clothing) {
+    public void changeClothing(Clothes ... clothing) throws StealingException {
         this.clothing.clear();
         putOnClothing(clothing);
     }
 
-    public void putOnClothing(Clothes ... clothing) {
+    public void putOnClothing(Clothes ... clothing) throws StealingException {
         System.out.println(this + " is changing clothes for ...");
         for (var e : clothing) {
             this.clothing.add(e);
@@ -61,7 +62,7 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     @Override
-    public void takeThing(Ownable o) {
+    public void takeThing(Ownable o) throws StealingException {
         this.things.add(o);
         o.setOwner(this);
     }
