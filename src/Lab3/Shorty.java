@@ -29,12 +29,15 @@ public class Shorty extends Person implements Owner, Talkable {
         return clothing;
     }
 
-    public void changeClothing(Clothes ... clothing) throws StealingException {
+    public void setClothing(Clothes ... clothing) throws StealingException {
+        for (var e : this.clothing) {
+            this.unlinkThing(e);
+        }
         this.clothing.clear();
-        putOnClothing(clothing);
+        addClothing(clothing);
     }
 
-    public void putOnClothing(Clothes ... clothing) throws StealingException {
+    public void addClothing(Clothes ... clothing) throws StealingException {
         System.out.println(this + " is changing clothes for ...");
         for (var e : clothing) {
             this.clothing.add(e);
@@ -52,7 +55,7 @@ public class Shorty extends Person implements Owner, Talkable {
         this.location = location;
     }
 
-    public void doHairstyle(Hairstyle hairstyle) {
+    public void setHairstyle(Hairstyle hairstyle) {
         System.out.println(this + " do " + hairstyle);
         this.hairstyle = hairstyle;
     }

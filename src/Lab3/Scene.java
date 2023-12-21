@@ -32,9 +32,9 @@ public class Scene {
         orchestra = new Orchestra(musicianList.toArray(new Musician[0]));
 
         main_character = new Shorty("Гвоздик", Person.Gender.MALE);
-        main_character.doHairstyle(Hairstyle.PROTRUDING_TUFT);
+        main_character.setHairstyle(Hairstyle.PROTRUDING_TUFT);
         try {
-            main_character.changeClothing(new Clean(new FormalWear(FormalWear.Type.SHIRT)));
+            main_character.setClothing(new Clean(new FormalWear(FormalWear.Type.SHIRT)));
         }
         catch (StealingException e) {
             throw new RuntimeException(e);
