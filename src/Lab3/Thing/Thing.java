@@ -1,6 +1,6 @@
 package Lab3.Thing;
 
-public abstract class Thing implements Ownable {
+public abstract class Thing implements Ownable, Interactable {
     private Owner owner;
     @Override
     public void setOwner(Owner o) throws StealingException {
