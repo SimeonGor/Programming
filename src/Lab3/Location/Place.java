@@ -5,6 +5,33 @@ import java.util.List;
 import java.util.Vector;
 
 public class Place implements Decoratable {
+    public static class TimeOfDay {
+        private final int hours;
+        private final int minutes;
+        public TimeOfDay(int hours, int minutes) {
+            this.hours = hours % 24;
+            this.minutes = minutes % 60;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || o.getClass() != this.getClass()) return false;
+            TimeOfDay other = (TimeOfDay) o;
+            return this.minutes == other.minutes
+                    && this.hours == other.hours;
+        }
+
+        @Override
+        public int hashCode() {
+            return hours * 60 + minutes;
+        }
+
+        @Override
+        public String toString() {
+            return hours % 12 + ":" + minutes + (hours < 12 ? "am" : "pm");
+        }
+    }
     private String description;
     private List<Decoration> decorations = new Vector<>();
     private TimeOfDay timeOfDay;
@@ -48,7 +75,7 @@ public class Place implements Decoratable {
 
     @Override
     public double getIndexOfAtmosphere() {
-        int sum = 0;
+        double sum = 0;
         for (var e : decorations) {
             sum += e.getIndexOfAtmosphere();
         }
@@ -67,12 +94,12 @@ public class Place implements Decoratable {
 
     @Override
     public String toString() {
-        String str = getDescription() + " decorated with";
+        StringBuilder str = new StringBuilder(getDescription() + " decorated with");
         for (var e : decorations) {
-            str += " " + e;
+            str.append(" ").append(e);
         }
-        str += " at " + timeOfDay;
-        return str;
+        str.append(" at ").append(timeOfDay);
+        return str.toString();
     }
 
     @Override
