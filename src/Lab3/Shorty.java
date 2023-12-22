@@ -12,7 +12,7 @@ import Lab3.Thing.Thing;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Shorty extends Person implements Owner, Talkable, Writer {
+public class Shorty extends Person implements Owner, Talkable, Writer, Sleepable {
     private Town nativeTown;
     private Place location;
     private final Map<String, Thing> things = new HashMap<>();
@@ -88,6 +88,11 @@ public class Shorty extends Person implements Owner, Talkable, Writer {
     public Speech speak(Speech speech) {
         System.out.println(this + " says: \"" + speech.getSpeech() + "\"");
         return speech;
+    }
+
+    @Override
+    public void sleep(String time) {
+        System.out.println(this + " have been sleeping for " + time);
     }
 
     @Override
