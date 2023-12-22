@@ -26,8 +26,10 @@ public class Musician extends Shorty implements IMusician {
 
     @Override
     public void playOn(MusicalInstrument instrument) {
-        System.out.println(this + " plays on " + instrument);
-        instrument.play();
+        if (instrument != null) {
+            System.out.println(this + " plays on " + instrument);
+            instrument.play();
+        }
     }
     @Override
     public void play() {
@@ -36,8 +38,10 @@ public class Musician extends Shorty implements IMusician {
 
     @Override
     public void hold(MusicalInstrument instrument) {
-        System.out.println(this + " holds " + instrument);
-        instrument.hold();
+        if (instrument != null) {
+            System.out.println(this + " holds " + instrument);
+            instrument.hold();
+        }
     }
     @Override
     public void hold() {
