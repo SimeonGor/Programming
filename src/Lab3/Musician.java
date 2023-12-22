@@ -1,5 +1,6 @@
 package Lab3;
 
+import Lab3.Location.Town;
 import Lab3.Music.IMusician;
 import Lab3.Thing.MusicalInstrument.MusicalInstrument;
 import Lab3.Thing.StealingException;
@@ -9,8 +10,8 @@ public class Musician extends Shorty implements IMusician {
 
     public Musician() {super();}
 
-    public Musician(String name, Gender gender) {
-        super(name, gender);
+    public Musician(String name, Gender gender, Town nativeTown) {
+        super(name, gender, nativeTown);
     }
 
     @Override

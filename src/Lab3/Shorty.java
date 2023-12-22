@@ -1,6 +1,7 @@
 package Lab3;
 
 import Lab3.Location.Place;
+import Lab3.Location.Town;
 import Lab3.Speech.Talkable;
 import Lab3.Speech.Speech;
 import Lab3.Thing.Clothes.Clothes;
@@ -12,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Shorty extends Person implements Owner, Talkable, Writer {
+    private Town nativeTown;
     private Place location;
     private final Map<String, Ownable> things = new HashMap<>();
     private final Map<String, Clothes> clothing = new HashMap<>();
@@ -21,8 +23,9 @@ public class Shorty extends Person implements Owner, Talkable, Writer {
         super();
     }
 
-    public Shorty(String name, Gender gender) {
+    public Shorty(String name, Gender gender, Town nativeTown) {
         super(name, gender);
+        this.nativeTown = nativeTown;
     }
 
     public Map<String, Clothes> getClothing() {

@@ -27,7 +27,12 @@ public class Scene {
     private List<Shorty> malyshi;
     private List<Shorty> residentsOfZmeevka;
     private Shorty znayka, nexnayka, solomka, gvozdik, shurupchik, bublik;
+
+    private Town greenTown, flowerTown, zmeevka;
     public void init() {
+        greenTown = new Town("Green Town");
+        flowerTown = new Town("Flower Town");
+        zmeevka = new Town("Zmeevka");
         HarpFactory harpFactory = new HarpFactory() {
             @Override
             public Harp createHarp(String type) {
@@ -46,13 +51,13 @@ public class Scene {
                 new String[]{"little", "little", "middle", "middle", "big", "huge"}
         ));
         for (int i = 0; i < typesOfHarps.size(); i++) {
-            Musician t = new Musician("Unnamed", Person.Gender.FEMALE);
+            Musician t = new Musician("Unnamed", Person.Gender.FEMALE, greenTown);
             t.takeMusicalInstrument(harpFactory.createHarp("little"));
             musicianList.add(t);
         }
         orchestra = new Orchestra(musicianList.toArray(new Musician[0]));
 
-        gvozdik = new Shorty("Гвоздик", Person.Gender.MALE);
+        gvozdik = new Shorty("Гвоздик", Person.Gender.MALE, zmeevka);
         gvozdik.setHairstyle(Hairstyle.PROTRUDING_TUFT);
 
         Clothes cleanShirt = new Clean(new FormalWear(FormalWear.Type.SHIRT));
@@ -64,7 +69,7 @@ public class Scene {
         }
         System.out.println(gvozdik.getClothing());
 
-        znayka = new Shorty("Знайка", Person.Gender.MALE);
+        znayka = new Shorty("Знайка", Person.Gender.MALE, flowerTown);
         try {
             znayka.setClothing("SHIRT", cleanShirt);
         }
@@ -86,7 +91,6 @@ public class Scene {
 
         Place square = new Place("площадка", new Plants(Plants.Type.TREES));
         square.setTimeOfDay(new Place.TimeOfDay(16, 30));
-        Town greenTown = new Town("Green Town");
         greenTown.addPlace(square);
 
         System.out.println(greenTown);
