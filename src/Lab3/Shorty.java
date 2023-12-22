@@ -11,7 +11,7 @@ import Lab3.Thing.StealingException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Shorty extends Person implements Owner, Talkable {
+public class Shorty extends Person implements Owner, Talkable, Writer {
     private Place location;
     private final Map<String, Ownable> things = new HashMap<>();
     private final Map<String, Clothes> clothing = new HashMap<>();
@@ -61,6 +61,8 @@ public class Shorty extends Person implements Owner, Talkable {
     public Hairstyle getHairstyle() {
         return hairstyle;
     }
+
+
 
     @Override
     public void takeThing(String key, Ownable o) throws StealingException {

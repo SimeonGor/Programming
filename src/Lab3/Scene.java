@@ -13,7 +13,9 @@ import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly;
 import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly;
 import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly;
 import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud;
+import Lab3.Thing.Notebook;
 import Lab3.Thing.StealingException;
+import Lab3.Thing.Thing;
 
 import java.util.Collections;
 import java.util.List;
@@ -79,8 +81,9 @@ public class Scene {
 //
 //        gvozdik.goTo(square);
 
-        System.out.println(new Baked(new BasicFood("potato", 14., BasicFood.Type.VEGETABLE)));
+        Thing notebook = new Notebook(10);
 
-        (new Musician("n", Person.Gender.FEMALE)).playOn(null);
+        znayka.writeIn(notebook, "very important note");
+        System.out.println(notebook);
     }
 }
