@@ -1,24 +1,24 @@
 package Lab3.Location;
 
-import java.util.List;
-import java.util.Vector;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Town extends Location {
-    private final List<Place> places = new Vector<>();
+    private final Map<String, Place> places = new HashMap<>();
 
     public Town(String description) {
         this.description = description;
     }
 
-    public void addPlace(Place place) {
-        places.add(place);
+    public void addPlace(String key, Place place) {
+        places.put(key, place);
     }
 
-    public void deletePlace(Place place) {
-        places.remove(place);
+    public void deletePlace(String key) {
+        places.remove(key);
     }
 
-    public List<Place> getPlaces() {
+    public Map<String, Place> getPlaces() {
         return places;
     }
 

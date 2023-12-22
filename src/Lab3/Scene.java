@@ -31,6 +31,9 @@ public class Scene {
     private Town greenTown, flowerTown, zmeevka;
     public void init() {
         greenTown = new Town("Green Town");
+        Place square = new Place("площадка", new Plants(Plants.Type.TREES));
+        greenTown.addPlace("square", square);
+
         flowerTown = new Town("Flower Town");
         zmeevka = new Town("Zmeevka");
         HarpFactory harpFactory = new HarpFactory() {
@@ -88,10 +91,6 @@ public class Scene {
 
         znayka.writeIn(notebook, "very important note");
         System.out.println(notebook);
-
-        Place square = new Place("площадка", new Plants(Plants.Type.TREES));
-        square.setTimeOfDay(new Place.TimeOfDay(16, 30));
-        greenTown.addPlace(square);
 
         System.out.println(greenTown);
     }
