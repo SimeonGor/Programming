@@ -86,7 +86,7 @@ public class Shorty extends Person implements Owner, Talkable, Writer {
 
     @Override
     public Speech speak(Speech speech) {
-        System.out.println(speech.getSpeech());
+        System.out.println(this + " says: \"" + speech.getSpeech() + "\"");
         return speech;
     }
 
