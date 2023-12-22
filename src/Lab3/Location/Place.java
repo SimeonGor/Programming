@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
-public class Place implements Decoratable {
+public class Place extends Location implements Decoratable {
     public static class TimeOfDay {
         private final int hours;
         private final int minutes;
@@ -32,7 +32,6 @@ public class Place implements Decoratable {
             return hours % 12 + ":" + minutes + (hours < 12 ? "am" : "pm");
         }
     }
-    private String description;
     private List<Decoration> decorations = new Vector<>();
     private TimeOfDay timeOfDay;
 
@@ -47,14 +46,6 @@ public class Place implements Decoratable {
 
     public TimeOfDay getTimeOfDay() {
         return timeOfDay;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     @Override

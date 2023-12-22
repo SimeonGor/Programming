@@ -2,6 +2,7 @@ package Lab3;
 
 import Lab3.Location.Place;
 import Lab3.Location.Plants;
+import Lab3.Location.Town;
 import Lab3.Thing.Clothes.*;
 import Lab3.Music.Orchestra;
 import Lab3.Thing.Food.*;
@@ -76,14 +77,18 @@ public class Scene {
     public void start() {
 //        System.out.println(orchestra);
 //        orchestra.play();
-//        Place square = new Place("площадка", new Plants(Plants.Type.TREES));
-//        square.setTimeOfDay(new Place.TimeOfDay(16, 30));
-//
 //        gvozdik.goTo(square);
 
         Thing notebook = new Notebook(10);
 
         znayka.writeIn(notebook, "very important note");
         System.out.println(notebook);
+
+        Place square = new Place("площадка", new Plants(Plants.Type.TREES));
+        square.setTimeOfDay(new Place.TimeOfDay(16, 30));
+        Town greenTown = new Town("Green Town");
+        greenTown.addPlace(square);
+
+        System.out.println(greenTown);
     }
 }
