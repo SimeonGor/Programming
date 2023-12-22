@@ -85,11 +85,15 @@ public class Place extends Location implements Decoratable {
 
     @Override
     public String toString() {
-        StringBuilder str = new StringBuilder(getDescription() + " decorated with");
-        for (var e : decorations) {
-            str.append(" ").append(e);
+        StringBuilder str = new StringBuilder(getDescription());
+        if (!decorations.isEmpty()) {
+            str.append(" decorated with");
+            for (var e : decorations) {
+                str.append(" ").append(e);
+            }
         }
-        str.append(" at ").append(timeOfDay);
+
+        //        str.append(" at ").append(timeOfDay);
         return str.toString();
     }
 
