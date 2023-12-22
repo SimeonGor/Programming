@@ -86,12 +86,19 @@ public class Scene {
         for (int i = 0; i < 5; i++) {
             malyshi.add(new Shorty("Unnamed" + i, Person.Gender.FEMALE, greenTown));
         }
+
+        shurupchik = new Shorty("Шурупчик", Person.Gender.MALE, zmeevka);
+        bublik = new Shorty("Бублик", Person.Gender.MALE, zmeevka);
+
+        residentsOfZmeevka = new Vector<>();
+        for (int i = 0; i < 10; i++) {
+            residentsOfZmeevka.add(new Shorty("Unnamed" + i,
+                    (i % 2 == 0) ? Person.Gender.MALE : Person.Gender.FEMALE,
+                    zmeevka));
+        }
     }
 
     public void start() {
-//        System.out.println(orchestra);
-//        orchestra.play();
-//        gvozdik.goTo(square);
         znayka.goTo(greenTown.getPlaces().get("field"));
         Speech storyOfSolomka = new BasicSpeech("Story of " + solomka);
         for (var e: malyshi) {
@@ -111,10 +118,32 @@ public class Scene {
             neznayka.goTo(greenTown.getPlaces().get("field"));
             neznayka.speak(new Thought(new Exclamation(new BasicSpeech("Нет, видно, еще не забыли!"))));
         }
+        neznayka.goTo(greenTown.getPlaces().get("thickets"));
 
         greenTown.getPlaces().get("square").addDecorations(new Tent("нарядные палатки"));
         greenTown.getPlaces().get("square").addDecorations(new Ropes(Ropes.Type.FLAGS));
         greenTown.getPlaces().get("square").addDecorations(new Ropes(Ropes.Type.LANTERNS));
         System.out.println(greenTown);
+
+        greenTown.getPlaces().get("square").setTimeOfDay(new Place.TimeOfDay(16, 30));
+        orchestra.play();
+
+        gvozdik.goTo(greenTown.getPlaces().get("square"));
+        bublik.goTo(greenTown.getPlaces().get("square"));
+
+        for (var e : residentsOfZmeevka) {
+            e.goTo(greenTown.getPlaces().get("square"));
+            e.speak(new BasicSpeech("Thanks for the fruits"));
+        }
+
+        neznayka.sleep("a long time");
+        neznayka.goTo(greenTown.getPlaces().get("square"));
+        for (var e : malyshi) {
+            e.speak(new Laugh(new Exclamation(new BasicSpeech("something offensive"))));
+        }
+
+        Fence fence = new Fence("забор");
+        (new Writer(){}).writeIn(fence, "Незнайка дурак");
+        neznayka.goTo(new Place("куда глаза глядят", fence));
     }
 }
