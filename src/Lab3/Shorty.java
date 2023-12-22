@@ -8,13 +8,13 @@ import Lab3.Thing.Ownable;
 import Lab3.Thing.Owner;
 import Lab3.Thing.StealingException;
 
-import java.util.List;
-import java.util.Vector;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Shorty extends Person implements Owner, Talkable {
     private Place location;
-    private final List<Ownable> things = new Vector<>();
-    private final List<Clothes> clothing = new Vector<>();
+    private final Map<String, Ownable> things = new HashMap<>();
+    private final Map<String, Clothes> clothing = new HashMap<>();
     private Hairstyle hairstyle;
 
     public Shorty() {
@@ -25,29 +25,23 @@ public class Shorty extends Person implements Owner, Talkable {
         super(name, gender);
     }
 
-    public List<Clothes> getClothing() {
+    public Map<String, Clothes> getClothing() {
         return clothing;
     }
 
-    public void setClothing(Clothes ... clothing) throws StealingException {
+    public void deleteClothing(String key) {
         System.out.println(this + " is changing clothes for ...");
-        for (var e : this.clothing) {
-            this.unlinkThing(e);
-        }
-        this.clothing.clear();
-        addClothing(clothing);
+        unlinkThing(key);
+        clothing.remove(key);
     }
 
-    public void addClothing(Clothes ... clothing) throws StealingException {
+    public void setClothing(String key, Clothes clothes ) throws StealingException {
         System.out.println(this + " is putting on ...");
-        for (var e: clothing) {
-            System.out.println("\t" + e);
+        if (clothing.containsKey(key)) {
+            deleteClothing(key);
         }
-
-        for (var e : clothing) {
-            this.takeThing(e);
-            this.clothing.add(e);
-        }
+        takeThing(key, clothes);
+        clothing.put(key, clothes);
     }
 
     public Place getLocation() {
@@ -69,19 +63,19 @@ public class Shorty extends Person implements Owner, Talkable {
     }
 
     @Override
-    public void takeThing(Ownable o) throws StealingException {
+    public void takeThing(String key, Ownable o) throws StealingException {
         o.setOwner(this);
-        this.things.add(o);
+        this.things.put(key, o);
     }
 
     @Override
-    public void unlinkThing(Ownable o) {
-        o.unsetOwner();
-        this.things.remove(o);
+    public void unlinkThing(String key) {
+        things.get(key).unsetOwner();
+        this.things.remove(key);
     }
 
     @Override
-    public List<Ownable> getThings() {
+    public Map<String, Ownable> getThings() {
         return this.things;
     }
 

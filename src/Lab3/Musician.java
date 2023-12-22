@@ -21,7 +21,7 @@ public class Musician extends Shorty implements IMusician {
     @Override
     public void takeMusicalInstrument(MusicalInstrument instrument) throws StealingException {
         this.instrument = instrument;
-        this.takeThing(instrument);
+        this.takeThing("musical instrument", instrument);
     }
 
     @Override

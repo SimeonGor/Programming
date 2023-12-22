@@ -5,6 +5,14 @@ import Lab3.Location.Plants;
 import Lab3.Thing.Clothes.*;
 import Lab3.Music.Orchestra;
 import Lab3.Thing.Food.*;
+import Lab3.Thing.MusicalInstrument.Harp;
+import Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands;
+import Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor;
+import Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap;
+import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly;
+import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly;
+import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly;
+import Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud;
 import Lab3.Thing.StealingException;
 
 import java.util.Collections;
@@ -17,7 +25,19 @@ public class Scene {
     private List<Shorty> residentsOfZmeevka;
     private Shorty znayka, nexnayka, solomka, gvozdik, shurupchik, bublik;
     public void init() {
-        HarpFactory harpFactory = new SimpleHarpFactory();
+        HarpFactory harpFactory = new HarpFactory() {
+            @Override
+            public Harp createHarp(String type) {
+                return switch (type) {
+                    case "little" -> new Harp(new PlayQuietly(), new HoldInHands());
+                    case "middle" -> new Harp(new PlayCalmly(), new HoldOnLap());
+                    case "big" -> new Harp(new PlayLoudly(), new HoldOnFloor());
+                    case "huge" -> new Harp(new PlayVeryLoud(), new HoldOnFloor());
+                    default -> null;
+                };
+            }
+        };
+
         List<Musician> musicianList = new Vector<>();
         List<String> typesOfHarps = new Vector<>(List.of(
                 new String[]{"little", "little", "middle", "middle", "big", "huge"}
@@ -34,15 +54,16 @@ public class Scene {
 
         Clothes cleanShirt = new Clean(new FormalWear(FormalWear.Type.SHIRT));
         try {
-            gvozdik.setClothing(cleanShirt);
+            gvozdik.setClothing("SHIRT", cleanShirt);
         }
         catch (StealingException e) {
             System.out.println(e.getMessage());
         }
         System.out.println(gvozdik.getClothing());
+
         znayka = new Shorty("Знайка", Person.Gender.MALE);
         try {
-            znayka.addClothing(cleanShirt);
+            znayka.setClothing("SHIRT", cleanShirt);
         }
         catch (StealingException e) {
             System.out.println(e.getMessage());
