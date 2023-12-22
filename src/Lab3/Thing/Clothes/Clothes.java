@@ -13,9 +13,6 @@ public abstract class Clothes extends Thing {
     public abstract double getBonusCharm();
 
     @Override
-    public void interact() {}
-
-    @Override
     public String toString() {
         return getDescription() + "(" + getBonusCharm() + "/100)";
     }

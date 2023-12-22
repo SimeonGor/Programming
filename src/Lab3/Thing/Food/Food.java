@@ -18,10 +18,6 @@ public abstract class Food extends Thing implements Edible {
     public void eat() {
         System.out.println("eating " + this);
     }
-    @Override
-    public void interact() {
-        this.eat();
-    }
 
     @Override
     public boolean equals(Object o) {

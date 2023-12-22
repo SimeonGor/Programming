@@ -25,11 +25,6 @@ public class Harp extends Thing implements MusicalInstrument {
     }
 
     @Override
-    public void interact() {
-        this.hold();
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || o.getClass() != this.getClass()) return false;

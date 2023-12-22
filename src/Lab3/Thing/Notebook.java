@@ -22,7 +22,4 @@ public class Notebook extends Thing implements KeepingNotes {
     public List<String> getNotes() {
         return notes;
     }
-
-    @Override
-    public void interact() {}
 }
