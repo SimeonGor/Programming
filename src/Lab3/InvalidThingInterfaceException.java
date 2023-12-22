@@ -3,9 +3,9 @@ package Lab3;
 import Lab3.Thing.Thing;
 
 public class InvalidThingInterfaceException extends ClassCastException {
-    private Thing thing;
+    private Object thing;
     private String implementsInterface;
-    public InvalidThingInterfaceException(Thing thing, String implementsInterface) {
+    public InvalidThingInterfaceException(Object thing, String implementsInterface) {
         this.thing = thing;
         this.implementsInterface = implementsInterface;
     }
