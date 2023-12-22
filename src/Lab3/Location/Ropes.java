@@ -1,15 +1,13 @@
 package Lab3.Location;
 
-public class Plants implements Decoration {
+public class Ropes implements Decoration {
     public enum Type {
-        FLOWERS("flowers", 10),
-        TREES("trees", 20),
-        BUSHES("bushes", 15);
-
-        private final double index;
+        FLAGS("flags", 10.),
+        LANTERNS("lanterns", 11.);
         private final String description;
+        private final double index;
 
-        Type(String description, int index) {
+        Type(String description, double index) {
             this.index = index;
             this.description = description;
         }
@@ -17,9 +15,10 @@ public class Plants implements Decoration {
 
     private Type type;
 
-    public Plants(Type type) {
+    public Ropes(Type type) {
         this.type = type;
     }
+
     @Override
     public double getIndexOfAtmosphere() {
         return type.index;
@@ -41,7 +40,7 @@ public class Plants implements Decoration {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || o.getClass() != this.getClass()) return false;
-        return ((Plants) o).getType() == this.getType();
+        return ((Ropes) o).getType() == this.getType();
     }
 
     @Override
@@ -51,6 +50,6 @@ public class Plants implements Decoration {
 
     @Override
     public String toString() {
-        return type.description;
+        return "ropes with " + type.description;
     }
 }
