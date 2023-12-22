@@ -1,6 +1,6 @@
 package Lab3.Thing;
 
-public class StealingException extends RuntimeException {
+public class StealingException extends Exception {
     private final Thing object;
     private final Owner thief;
     public StealingException(Owner thief, Thing object) {

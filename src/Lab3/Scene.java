@@ -58,7 +58,12 @@ public class Scene {
         ));
         for (int i = 0; i < typesOfHarps.size(); i++) {
             Musician t = new Musician("Unnamed", Person.Gender.FEMALE, greenTown);
-            t.takeMusicalInstrument(harpFactory.createHarp("little"));
+            try {
+                t.takeMusicalInstrument(harpFactory.createHarp("little"));
+            }
+            catch (StealingException e) {
+                System.out.println(e.getMessage());
+            }
             musicianList.add(t);
         }
         orchestra = new Orchestra(musicianList.toArray(new Musician[0]));
@@ -73,14 +78,30 @@ public class Scene {
         }
 
         znayka = new Shorty("Знайка", Person.Gender.MALE, flowerTown);
-        znayka.setClothing("SUIT", new Ironed(new FormalWear(FormalWear.Type.SUIT)));
-        znayka.takeThing("notebook", new Notebook(10));
+        try {
+            znayka.setClothing("SUIT", new Ironed(new FormalWear(FormalWear.Type.SUIT)));
+        } catch (StealingException e) {
+            System.out.println(e.getMessage());
+        }
+        try {
+            znayka.takeThing("notebook", new Notebook(10));
+        } catch (StealingException e) {
+            System.out.println(e.getMessage());
+        }
 
         solomka = new Shorty("Соломка", Person.Gender.FEMALE, greenTown);
-        solomka.setClothing("dress", new Clean(new WomenClothing(WomenClothing.Type.DRESS)));
+        try {
+            solomka.setClothing("dress", new Clean(new WomenClothing(WomenClothing.Type.DRESS)));
+        } catch (StealingException e) {
+            System.out.println(e.getMessage());
+        }
 
         neznayka = new Shorty("Незнайка", Person.Gender.MALE, flowerTown);
-        neznayka.setClothing("SHIRT", new Wrinkled(new FormalWear(FormalWear.Type.SHIRT)));
+        try {
+            neznayka.setClothing("SHIRT", new Wrinkled(new FormalWear(FormalWear.Type.SHIRT)));
+        } catch (StealingException e) {
+            System.out.println(e.getMessage());
+        }
 
         malyshi = new Vector<>();
         for (int i = 0; i < 5; i++) {
