@@ -1,8 +1,8 @@
 package Lab3.Thing;
 
-public abstract class Thing implements Ownable {
+public abstract class Thing {
     private Owner owner;
-    @Override
+
     public void setOwner(Owner o) throws StealingException {
         if (owner != null && owner != o) {
             throw new StealingException(o, this);
@@ -10,12 +10,10 @@ public abstract class Thing implements Ownable {
         this.owner = o;
     }
 
-    @Override
     public void unsetOwner() {
         this.owner = null;
     }
 
-    @Override
     public Owner getOwner() {
         return owner;
     }

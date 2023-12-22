@@ -62,24 +62,16 @@ public class Scene {
 
         gvozdik = new Shorty("Гвоздик", Person.Gender.MALE, zmeevka);
         gvozdik.setHairstyle(Hairstyle.PROTRUDING_TUFT);
-
-        Clothes cleanShirt = new Clean(new FormalWear(FormalWear.Type.SHIRT));
         try {
-            gvozdik.setClothing("SHIRT", cleanShirt);
+            gvozdik.setClothing("SHIRT", new Clean(new FormalWear(FormalWear.Type.SHIRT)));
         }
         catch (StealingException e) {
             System.out.println(e.getMessage());
         }
-        System.out.println(gvozdik.getClothing());
 
         znayka = new Shorty("Знайка", Person.Gender.MALE, flowerTown);
-        try {
-            znayka.setClothing("SHIRT", cleanShirt);
-        }
-        catch (StealingException e) {
-            System.out.println(e.getMessage());
-        }
-        System.out.println(znayka.getClothing());
+        znayka.setClothing("SUIT", new Ironed(new FormalWear(FormalWear.Type.SUIT)));
+        znayka.takeThing("notebook", new Notebook(10));
     }
 
     public void start() {
@@ -87,10 +79,8 @@ public class Scene {
 //        orchestra.play();
 //        gvozdik.goTo(square);
 
-        Thing notebook = new Notebook(10);
-
-        znayka.writeIn(notebook, "very important note");
-        System.out.println(notebook);
+        System.out.println(znayka.getThings().get(""));
+//        znayka.writeIn(znayka.getThings().get("notebook"), "very important note");
 
         System.out.println(greenTown);
     }

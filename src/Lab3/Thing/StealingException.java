@@ -1,15 +1,15 @@
 package Lab3.Thing;
 
 public class StealingException extends RuntimeException {
-    private final Ownable object;
+    private final Thing object;
     private final Owner thief;
-    public StealingException(Owner thief, Ownable object) {
+    public StealingException(Owner thief, Thing object) {
         super(thief + " tried to steal " + object + " from " + object.getOwner());
         this.thief = thief;
         this.object = object;
     }
 
-    public Ownable getObject() {
+    public Thing getObject() {
         return object;
     }
 

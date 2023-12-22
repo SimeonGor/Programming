@@ -5,9 +5,9 @@ import Lab3.Location.Town;
 import Lab3.Speech.Talkable;
 import Lab3.Speech.Speech;
 import Lab3.Thing.Clothes.Clothes;
-import Lab3.Thing.Ownable;
 import Lab3.Thing.Owner;
 import Lab3.Thing.StealingException;
+import Lab3.Thing.Thing;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import java.util.Map;
 public class Shorty extends Person implements Owner, Talkable, Writer {
     private Town nativeTown;
     private Place location;
-    private final Map<String, Ownable> things = new HashMap<>();
+    private final Map<String, Thing> things = new HashMap<>();
     private final Map<String, Clothes> clothing = new HashMap<>();
     private Hairstyle hairstyle;
 
@@ -68,7 +68,7 @@ public class Shorty extends Person implements Owner, Talkable, Writer {
 
 
     @Override
-    public void takeThing(String key, Ownable o) throws StealingException {
+    public void takeThing(String key, Thing o) throws StealingException {
         o.setOwner(this);
         this.things.put(key, o);
     }
@@ -80,7 +80,7 @@ public class Shorty extends Person implements Owner, Talkable, Writer {
     }
 
     @Override
-    public Map<String, Ownable> getThings() {
+    public Map<String, Thing> getThings() {
         return this.things;
     }
 
