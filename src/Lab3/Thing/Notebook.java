@@ -38,10 +38,15 @@ public class Notebook extends Thing implements KeepingNotes {
 
     @Override
     public String toString() {
-        StringBuilder result = new StringBuilder("the notebook (" + notes.size() + "/" + maxCountOfMemory + ") contains notes : ");
-        for (var e : notes) {
-            result.append("\n\t").append(e);
+        if (notes.isEmpty()) {
+            return "the empty notebook";
         }
-        return result.toString();
+        else {
+            StringBuilder result = new StringBuilder("the notebook (" + notes.size() + "/" + maxCountOfMemory + ") contains notes: ");
+            for (var e : notes) {
+                result.append("\n\t").append(e);
+            }
+            return result.toString();
+        }
     }
 }

@@ -79,9 +79,9 @@ public class Scene {
 //        orchestra.play();
 //        gvozdik.goTo(square);
 
-        System.out.println(znayka.getThings().get(""));
-//        znayka.writeIn(znayka.getThings().get("notebook"), "very important note");
-
+        System.out.println(znayka.getThings());
+        znayka.writeIn(znayka.getThings().get("notebook"), "very important note");
+        System.out.println(znayka.getThings());
         System.out.println(greenTown);
     }
 }
