@@ -80,5 +80,7 @@ public class Scene {
 //        gvozdik.goTo(square);
 
         System.out.println(new Baked(new BasicFood("potato", 14., BasicFood.Type.VEGETABLE)));
+
+        (new Musician("n", Person.Gender.FEMALE)).playOn(null);
     }
 }
