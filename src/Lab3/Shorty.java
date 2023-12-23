@@ -5,6 +5,7 @@ import Lab3.Location.Town;
 import Lab3.Speech.Talkable;
 import Lab3.Speech.Speech;
 import Lab3.Thing.Clothes.Clothes;
+import Lab3.Thing.Food.Food;
 import Lab3.Thing.Owner;
 import Lab3.Thing.StealingException;
 import Lab3.Thing.Thing;
@@ -18,6 +19,9 @@ public class Shorty extends Person implements Owner, Talkable, Writer, Sleepable
     private final Map<String, Thing> things = new HashMap<>();
     private final Map<String, Clothes> clothing = new HashMap<>();
     private Hairstyle hairstyle;
+
+    private double healthPoint = 100;
+    private final double maxHealthPoint = 100;
 
     public Shorty() {
         super();
@@ -65,6 +69,24 @@ public class Shorty extends Person implements Owner, Talkable, Writer, Sleepable
         return hairstyle;
     }
 
+    public double getHealthPoint() {
+        return healthPoint;
+    }
+
+    public void takeDamage(Attack attack) {
+        healthPoint -= attack.getDamage();
+        System.out.println(this + " was hit by " + attack.getOpponent());
+    }
+
+    public void eat(Food food) {
+        if (healthPoint + food.getTaste() < maxHealthPoint) {
+            healthPoint += food.getTaste();
+        }
+        else {
+            healthPoint = maxHealthPoint;
+        }
+        System.out.println(this + " ate " + food);
+    }
 
 
     @Override
@@ -97,6 +119,6 @@ public class Shorty extends Person implements Owner, Talkable, Writer, Sleepable
 
     @Override
     public String toString() {
-        return (getGender() == Gender.MALE ? "коротышка" : "малышка") + " " + getName();
+        return (getGender() == Gender.MALE ? "коротышка" : "малышка") + " " + getName() + "(HP : " + healthPoint + "/100)";
     }
 }

@@ -166,5 +166,8 @@ public class Scene {
         Fence fence = new Fence("забор");
         (new Writer(){}).writeIn(fence, "Незнайка дурак");
         neznayka.goTo(new Place("куда глаза глядят", fence));
+
+        neznayka.takeDamage(new Hit(10, fence));
+        neznayka.eat(new BasicFood("apple", 49, BasicFood.Type.FRUIT));
     }
 }
