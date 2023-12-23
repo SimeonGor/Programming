@@ -33,10 +33,10 @@ public class Scene {
         }
 
         class SimpleMusicianFactory implements ShortyFactory {
-            private String name;
-            private Person.Gender gender;
-            private Town nativeTown;
-            private MusicalInstrument musicalInstrument;
+            private final String name;
+            private final Person.Gender gender;
+            private final Town nativeTown;
+            private final MusicalInstrument musicalInstrument;
 
             public SimpleMusicianFactory(String name, Person.Gender gender, Town nativeTown, MusicalInstrument musicalInstrument) {
                 this.name = name;
@@ -60,12 +60,12 @@ public class Scene {
             }
         }
         class SimpleShortyFactory implements ShortyFactory {
-            private String name;
-            private Person.Gender gender;
-            private Hairstyle hairstyle;
-            private Town nativeTown;
-            private Map<String, Clothes> clothes;
-            private Map<String, Thing> thing;
+            private final String name;
+            private final Person.Gender gender;
+            private final Hairstyle hairstyle;
+            private final  Town nativeTown;
+            private final Map<String, Clothes> clothes;
+            private final Map<String, Thing> thing;
             public SimpleShortyFactory(String name,
                                        Person.Gender gender,
                                        Town nativeTown, Hairstyle hairstyle,
@@ -229,7 +229,7 @@ public class Scene {
         System.out.println("\n\n\n\n");
     }
 
-    public void start() {
+    public void start() throws StealingException {
         System.out.println("\t\tMain Scene\n\n");
         znayka.goTo(greenTown.getPlaces().get("field"));
         Speech storyOfSolomka = new BasicSpeech("Story of " + solomka);
