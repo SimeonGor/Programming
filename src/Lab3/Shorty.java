@@ -33,18 +33,18 @@ public class Shorty extends Person implements Owner, Talkable, Writer, Sleepable
     }
 
     public void deleteClothing(String key) {
-        System.out.println(this + " is changing clothes for ...");
+        System.out.println(this + " is take of " + clothing.get(key));
         unlinkThing(key);
         clothing.remove(key);
     }
 
     public void setClothing(String key, Clothes clothes ) throws StealingException {
-        System.out.println(this + " is putting on ...");
         if (clothing.containsKey(key)) {
             deleteClothing(key);
         }
         takeThing(key, clothes);
         clothing.put(key, clothes);
+        System.out.println(this + " is putting on " + clothes);
     }
 
     public Place getLocation() {
