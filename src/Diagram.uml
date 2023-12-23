@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/simeongor/Documents/java_codes/Programming</OriginalElement>
+  <nodes>
+    <node x="1343.75" y="1360.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor</node>
+    <node x="6531.171844520928" y="325.5">Lab3.InvalidThingInterfaceException</node>
+    <node x="1172.75" y="1360.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands</node>
+    <node x="3951.880177854261" y="34.0">Lab3.Location.Decoratable</node>
+    <node x="6703.3125" y="1858.0">Lab3.Thing.Clothes.Dirty</node>
+    <node x="4246.349655765898" y="742.0">Lab3.Thing.MusicalInstrument.MusicalInstrument</node>
+    <node x="2911.25" y="374.5">Lab3.Thing.Food.Edible</node>
+    <node x="5023.432989099232" y="766.5">Lab3.Speech.Talkable</node>
+    <node x="5868.3125" y="1858.0">Lab3.Thing.Clothes.Ironed</node>
+    <node x="5162.599655765898" y="1131.0">Lab3.Shorty</node>
+    <node x="5802.046844520928" y="717.0">Lab3.Thing.Clothes.Clothes</node>
+    <node x="3179.25" y="1360.0">Lab3.Thing.Food.FoodDecorator</node>
+    <node x="6588.1875" y="-248.5">Lab3.Thing.StealingException</node>
+    <node x="686.375" y="1870.0">Lab3.Speech.Question</node>
+    <node x="3808.3125" y="-199.5">Lab3.Location.Decoration</node>
+    <node x="6345.520833333334" y="-285.0">Lab3.Location.Location</node>
+    <node x="2928.625" y="1348.0">Lab3.Thing.Food.BasicFood.Type</node>
+    <node x="484.4835197934549" y="1384.5">Lab3.Speech.SpeechDecorator</node>
+    <node x="479.375" y="362.0">Lab3.Speech.Speech</node>
+    <node x="3962.9835197934553" y="277.0">Lab3.Location.Place</node>
+    <node x="2429.75" y="1360.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly</node>
+    <node x="2250.75" y="1360.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud</node>
+    <node x="870.375" y="1870.0">Lab3.Speech.Exclamation</node>
+    <node x="1712.75" y="1360.0">Lab3.Thing.Clothes.FormalWear.Type</node>
+    <node x="4060.531977911638" y="754.5">Lab3.Attack</node>
+    <node x="6484.3125" y="1882.5">Lab3.HarpFactory</node>
+    <node x="147.5" y="1360.0">Lab3.Location.Plants.Type</node>
+    <node x="2081.75" y="1360.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly</node>
+    <node x="6559.520833333334" y="46.0">Lab3.Thing.Owner</node>
+    <node x="4777.932989099232" y="681.0">Lab3.Location.Town</node>
+    <node x="3137.0" y="1858.0">Lab3.Thing.Food.Baked</node>
+    <node x="6347.171844520928" y="337.0">Lab3.Thing.Thing</node>
+    <node x="2878.787155765898" y="669.0">Lab3.Thing.Food.Food</node>
+    <node x="6285.3125" y="1858.0">Lab3.Thing.Clothes.WomenClothing.Type</node>
+    <node x="519.375" y="1870.0">Lab3.Speech.Laugh</node>
+    <node x="3092.787155765898" y="681.0">Lab3.Location.Fence</node>
+    <node x="1742.875" y="1870.0">Lab3.Thing.Clothes.FormalWear</node>
+    <node x="3367.25" y="1335.5">Lab3.Hit</node>
+    <node x="2640.317677854261" y="1360.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayHeavyMetal</node>
+    <node x="1466.625" y="1797.0">Lab3.Location.Ropes</node>
+    <node x="5958.3125" y="1372.0">Lab3.Thing.Clothes.ClothesDecorator</node>
+    <node x="6154.671844520928" y="766.5">Lab3.Writer</node>
+    <node x="6147.171844520928" y="362.0">Lab3.Thing.KeepingNotes</node>
+    <node x="4176.599655765898" y="1797.5">Lab3.Musician</node>
+    <node x="3727.5" y="766.5">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior</node>
+    <node x="1912.75" y="1360.0">Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly</node>
+    <node x="6278.8125" y="1372.0">Lab3.Thing.Clothes.WomenClothing</node>
+    <node x="1003.75" y="1360.0">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap</node>
+    <node x="6062.3125" y="1858.0">Lab3.Thing.Clothes.Clean</node>
+    <node x="5152.474655765898" y="1785.0">Lab3.Music.Orchestra</node>
+    <node x="3356.567677854261" y="1858.0">Lab3.Thing.Food.Fried</node>
+    <node x="-171.0" y="21.0">Lab3.Location.Tent</node>
+    <node x="3514.9694779116376" y="766.5">Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior</node>
+    <node x="-51.5" y="754.0">Lab3.Speech.BasicSpeech</node>
+    <node x="4460.349655765898" y="742.0">Lab3.Person.Gender</node>
+    <node x="2865.0" y="1870.0">Lab3.Thing.Food.BasicFood</node>
+    <node x="338.375" y="1870.0">Lab3.Speech.Thought</node>
+    <node x="6182.766322432565" y="2267.0">Lab3.Main</node>
+    <node x="5022.932989099232" y="277.0">Lab3.Person</node>
+    <node x="5674.3125" y="1858.0">Lab3.Thing.Clothes.Wrinkled</node>
+    <node x="6753.421844520928" y="693.0">Lab3.Thing.Notebook</node>
+    <node x="100.375" y="1797.0">Lab3.Location.Plants</node>
+    <node x="6206.766322432565" y="2105.0">Lab3.Scene</node>
+    <node x="5303.8125" y="766.5">Lab3.Sleepable</node>
+    <node x="1513.75" y="1360.0">Lab3.Location.Ropes.Type</node>
+    <node x="6390.671844520928" y="705.0">Lab3.Hairstyle</node>
+    <node x="4192.8125" y="1324.0">Lab3.Music.IMusician</node>
+    <node x="4880.599655765898" y="1324.0">Lab3.Thing.MusicalInstrument.Harp</node>
+    <node x="6345.520833333334" y="22.0">Lab3.Location.Location.TimeOfDay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Lab3.Scene" target="Lab3.Speech.Exclamation" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="961.875" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Speech.SpeechDecorator" target="Lab3.Speech.Speech" relationship="GENERALIZATION">
+      <point x="-46.75" y="-31.5" />
+      <point x="531.2335197934549" y="1109.0" />
+      <point x="572.4835197934549" y="1109.0" />
+      <point x="572.4835197934549" y="647.0" />
+      <point x="535.375" y="647.0" />
+      <point x="535.375" y="627.0" />
+      <point x="501.7083333333335" y="627.0" />
+      <point x="-44.666666666666686" y="44.0" />
+    </edge>
+    <edge source="Lab3.Location.Plants" target="Lab3.Location.Decoration" relationship="REALIZATION">
+      <point x="-72.66666666666669" y="-117.0" />
+      <point x="137.0" y="0.0" />
+      <point x="827.166666666667" y="0.0" />
+      <point x="827.166666666667" y="-20.0" />
+      <point x="3844.645833333334" y="-20.0" />
+      <point x="-72.66666666666652" y="31.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.FormalWear" target="Lab3.Thing.Clothes.FormalWear.Type" relationship="DEPENDENCY">
+      <point x="0.0" y="-44.0" />
+      <point x="1829.875" y="1763.0" />
+      <point x="1847.0" y="1763.0" />
+      <point x="44.75" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="2504.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="1078.25" y="1109.0" />
+      <point x="1203.8176778542606" y="1109.0" />
+      <point x="1203.8176778542606" y="1029.0" />
+      <point x="3553.9694779116376" y="1029.0" />
+      <point x="-39.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Music.Orchestra" relationship="TO_ONE">
+      <point x="0.0" y="-56.0" />
+      <point x="6265.766322432565" y="2084.0" />
+      <point x="6262.8125" y="2084.0" />
+      <point x="6262.8125" y="2064.0" />
+      <point x="5328.724655765898" y="2064.0" />
+      <point x="58.75" y="129.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.StealingException" relationship="DEPENDENCY">
+      <point x="-94.125" y="-285.0" />
+      <point x="5193.974655765898" y="1099.0" />
+      <point x="4620.630177854261" y="1099.0" />
+      <point x="4620.630177854261" y="1009.0" />
+      <point x="5012.432989099232" y="1009.0" />
+      <point x="5012.432989099232" y="-10.0" />
+      <point x="5027.5625" y="-10.0" />
+      <point x="5027.5625" y="-30.0" />
+      <point x="6630.6875" y="-30.0" />
+      <point x="-85.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Writer" target="Lab3.Thing.KeepingNotes" relationship="DEPENDENCY">
+      <point x="-54.0" y="-31.5" />
+      <point x="6208.671844520928" y="607.0" />
+      <point x="6282.171844520928" y="607.0" />
+      <point x="45.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Location.TimeOfDay" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="7513.796844520928" y="2074.0" />
+      <point x="7513.796844520928" y="245.0" />
+      <point x="6442.520833333334" y="245.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="Lab3.Speech.Exclamation" target="Lab3.Speech.SpeechDecorator" relationship="GENERALIZATION">
+      <point x="-45.75" y="-44.0" />
+      <point x="916.125" y="1763.0" />
+      <point x="577.9835197934549" y="1763.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Music.IMusician" target="Lab3.Thing.StealingException" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="4363.8125" y="1109.0" />
+      <point x="3914.067677854261" y="1109.0" />
+      <point x="3914.067677854261" y="1029.0" />
+      <point x="3890.0" y="1029.0" />
+      <point x="3890.0" y="-10.0" />
+      <point x="5027.5625" y="-10.0" />
+      <point x="5027.5625" y="-30.0" />
+      <point x="6630.6875" y="-30.0" />
+      <point x="-85.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Person.Gender" target="Lab3.Person" relationship="INNER_CLASS">
+      <point x="-48.25" y="-56.0" />
+      <point x="4508.599655765898" y="587.0" />
+      <point x="5047.182989099232" y="587.0" />
+      <point x="-72.75" y="129.0" />
+    </edge>
+    <edge source="Lab3.Music.IMusician" target="Lab3.Thing.MusicalInstrument.MusicalInstrument" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="4363.8125" y="1109.0" />
+      <point x="3914.067677854261" y="1109.0" />
+      <point x="3914.067677854261" y="1029.0" />
+      <point x="4278.682989099231" y="1029.0" />
+      <point x="-64.66666666666697" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Ironed" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="-43.5" y="-56.0" />
+      <point x="5911.8125" y="1753.0" />
+      <point x="5853.3125" y="1753.0" />
+      <point x="5853.3125" y="1079.0" />
+      <point x="6252.400186460122" y="1079.0" />
+      <point x="6252.400186460122" y="949.0" />
+      <point x="5947.046844520928" y="949.0" />
+      <point x="58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Dirty" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="43.5" y="-56.0" />
+      <point x="6833.8125" y="1763.0" />
+      <point x="6795.3125" y="1763.0" />
+      <point x="6795.3125" y="1079.0" />
+      <point x="6252.400186460122" y="1079.0" />
+      <point x="6252.400186460122" y="949.0" />
+      <point x="5947.046844520928" y="949.0" />
+      <point x="58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Location.Ropes" target="Lab3.Location.Decoration" relationship="REALIZATION">
+      <point x="-72.66666666666674" y="-117.0" />
+      <point x="1503.25" y="0.0" />
+      <point x="827.166666666667" y="0.0" />
+      <point x="827.166666666667" y="-20.0" />
+      <point x="3844.645833333334" y="-20.0" />
+      <point x="-72.66666666666652" y="31.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Music.IMusician" relationship="REALIZATION">
+      <point x="-128.25" y="-116.5" />
+      <point x="4219.349655765898" y="1733.0" />
+      <point x="4278.3125" y="1733.0" />
+      <point x="-85.5" y="92.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Writer" relationship="REALIZATION">
+      <point x="-31.375" y="-285.0" />
+      <point x="5256.724655765898" y="1109.0" />
+      <point x="5296.266322432565" y="1109.0" />
+      <point x="5296.266322432565" y="989.0" />
+      <point x="6208.671844520928" y="989.0" />
+      <point x="-54.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Location.Decoratable" target="Lab3.Location.Decoration" relationship="DEPENDENCY">
+      <point x="0.0" y="-68.0" />
+      <point x="4084.380177854261" y="-20.0" />
+      <point x="3989.979166666667" y="-20.0" />
+      <point x="72.66666666666652" y="31.5" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="2156.25" y="1109.0" />
+      <point x="2304.511969305777" y="1109.0" />
+      <point x="2304.511969305777" y="1019.0" />
+      <point x="3765.5" y="1019.0" />
+      <point x="-38.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Person.Gender" relationship="DEPENDENCY">
+      <point x="42.75" y="-116.5" />
+      <point x="4390.349655765898" y="1763.0" />
+      <point x="4348.281977911638" y="1763.0" />
+      <point x="4348.281977911638" y="1723.0" />
+      <point x="4182.3125" y="1723.0" />
+      <point x="4182.3125" y="1079.0" />
+      <point x="4390.0625" y="1079.0" />
+      <point x="4390.0625" y="999.0" />
+      <point x="4556.849655765898" y="999.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Location.Town" relationship="TO_ONE">
+      <point x="94.125" y="-285.0" />
+      <point x="5382.224655765898" y="1109.0" />
+      <point x="5544.546844520928" y="1109.0" />
+      <point x="5544.546844520928" y="1059.0" />
+      <point x="5925.531977911638" y="1059.0" />
+      <point x="5925.531977911638" y="999.0" />
+      <point x="4964.599655765899" y="999.0" />
+      <point x="74.66666666666697" y="117.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.Ironed" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="5955.3125" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.FormalWear" target="Lab3.Thing.Clothes.Clothes" relationship="GENERALIZATION">
+      <point x="58.0" y="-44.0" />
+      <point x="1887.875" y="1763.0" />
+      <point x="1902.25" y="1763.0" />
+      <point x="1902.25" y="1089.0" />
+      <point x="6090.796844520928" y="1089.0" />
+      <point x="6090.796844520928" y="959.0" />
+      <point x="5889.046844520928" y="959.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Location.Fence" target="Lab3.Thing.KeepingNotes" relationship="REALIZATION">
+      <point x="0.0" y="-117.0" />
+      <point x="3201.787155765898" y="607.0" />
+      <point x="6192.171844520928" y="607.0" />
+      <point x="-45.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.ClothesDecorator" target="Lab3.Thing.Clothes.Clothes" relationship="TO_ONE">
+      <point x="-47.0" y="-44.0" />
+      <point x="6005.3125" y="1059.0" />
+      <point x="5973.781977911638" y="1059.0" />
+      <point x="5973.781977911638" y="969.0" />
+      <point x="5831.046844520928" y="969.0" />
+      <point x="-58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Hairstyle" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="7007.031977911638" y="2074.0" />
+      <point x="7007.031977911638" y="1049.0" />
+      <point x="6542.171844520928" y="1049.0" />
+      <point x="50.5" y="93.0" />
+    </edge>
+    <edge source="Lab3.Thing.Thing" target="Lab3.Thing.Owner" relationship="TO_ONE">
+      <point x="0.0" y="-69.0" />
+      <point x="6429.171844520928" y="255.0" />
+      <point x="6406.838511187594" y="255.0" />
+      <point x="6406.838511187594" y="225.0" />
+      <point x="6750.354166666667" y="225.0" />
+      <point x="76.33333333333303" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="1987.25" y="1109.0" />
+      <point x="2304.511969305777" y="1109.0" />
+      <point x="2304.511969305777" y="1019.0" />
+      <point x="3765.5" y="1019.0" />
+      <point x="-38.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Thing" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="7321.099655765899" y="2074.0" />
+      <point x="7321.099655765899" y="557.0" />
+      <point x="6483.838511187595" y="557.0" />
+      <point x="54.66666666666697" y="69.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Writer" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="6889.281977911638" y="2074.0" />
+      <point x="6889.281977911638" y="1059.0" />
+      <point x="6316.671844520928" y="1059.0" />
+      <point x="54.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Ropes" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="1575.625" y="2074.0" />
+      <point x="0.0" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="2330.25" y="1109.0" />
+      <point x="2304.511969305777" y="1109.0" />
+      <point x="2304.511969305777" y="1019.0" />
+      <point x="3765.5" y="1019.0" />
+      <point x="-38.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Music.Orchestra" target="Lab3.Music.IMusician" relationship="TO_MANY">
+      <point x="0.0" y="-129.0" />
+      <point x="5269.974655765898" y="1733.0" />
+      <point x="4449.3125" y="1733.0" />
+      <point x="85.5" y="92.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Tent" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="-62.0" y="2074.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Writer" target="Lab3.InvalidThingInterfaceException" relationship="CREATE">
+      <point x="54.0" y="-31.5" />
+      <point x="6316.671844520928" y="627.0" />
+      <point x="6699.671844520928" y="627.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayLoudly" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="1987.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.Decoratable" relationship="REALIZATION">
+      <point x="-33.125" y="-129.0" />
+      <point x="4062.3585197934553" y="255.0" />
+      <point x="4084.380177854261" y="255.0" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.BasicFood.Type" target="Lab3.Thing.Food.BasicFood" relationship="INNER_CLASS">
+      <point x="-44.75" y="68.0" />
+      <point x="2973.375" y="1763.0" />
+      <point x="2990.5" y="1763.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.Location.TimeOfDay" relationship="DEPENDENCY">
+      <point x="99.375" y="-129.0" />
+      <point x="4194.858519793455" y="245.0" />
+      <point x="6442.520833333334" y="245.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="Lab3.Main" target="Lab3.Scene" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="7233.296844520928" y="2074.0" />
+      <point x="7233.296844520928" y="637.0" />
+      <point x="816.8869693057768" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="1418.25" y="1109.0" />
+      <point x="1203.8176778542606" y="1109.0" />
+      <point x="1203.8176778542606" y="1029.0" />
+      <point x="3553.9694779116376" y="1029.0" />
+      <point x="-39.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Owner" relationship="REALIZATION">
+      <point x="-31.375" y="-285.0" />
+      <point x="5256.724655765898" y="1109.0" />
+      <point x="5296.266322432565" y="1109.0" />
+      <point x="5296.266322432565" y="989.0" />
+      <point x="5250.178635972444" y="989.0" />
+      <point x="5250.178635972444" y="205.0" />
+      <point x="6597.687500000001" y="205.0" />
+      <point x="-76.33333333333303" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Musician" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="4347.599655765898" y="2074.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="Lab3.Thing.Owner" target="Lab3.Thing.Thing" relationship="DEPENDENCY">
+      <point x="0.0" y="56.0" />
+      <point x="6674.020833333334" y="215.0" />
+      <point x="6374.505177854261" y="215.0" />
+      <point x="-54.66666666666697" y="-69.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.Food" target="Lab3.Thing.Thing" relationship="GENERALIZATION">
+      <point x="48.5" y="-129.0" />
+      <point x="3024.287155765898" y="647.0" />
+      <point x="5185.781977911637" y="647.0" />
+      <point x="5185.781977911638" y="557.0" />
+      <point x="6374.505177854261" y="557.0" />
+      <point x="-54.66666666666697" y="69.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Location.Place" relationship="TO_ONE">
+      <point x="94.125" y="-285.0" />
+      <point x="5382.224655765898" y="1109.0" />
+      <point x="5544.546844520928" y="1109.0" />
+      <point x="5544.546844520928" y="979.0" />
+      <point x="5488.546844520928" y="979.0" />
+      <point x="5488.546844520928" y="577.0" />
+      <point x="4922.678635972444" y="577.0" />
+      <point x="4922.678635972444" y="567.0" />
+      <point x="4161.733519793455" y="567.0" />
+      <point x="66.25" y="129.0" />
+    </edge>
+    <edge source="Lab3.Location.Ropes" target="Lab3.Location.Ropes.Type" relationship="TO_ONE">
+      <point x="0.0" y="-117.0" />
+      <point x="1575.625" y="1763.0" />
+      <point x="1558.5" y="1763.0" />
+      <point x="-44.75" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.FoodDecorator" target="Lab3.Thing.Food.Food" relationship="TO_ONE">
+      <point x="42.0" y="-56.0" />
+      <point x="3305.25" y="1069.0" />
+      <point x="2975.787155765898" y="1069.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="Lab3.Thing.Thing" target="Lab3.Thing.StealingException" relationship="CREATE">
+      <point x="54.66666666666697" y="-69.0" />
+      <point x="6483.838511187595" y="235.0" />
+      <point x="6843.171844520928" y="235.0" />
+      <point x="6843.171844520928" y="-10.0" />
+      <point x="6800.6875" y="-10.0" />
+      <point x="85.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.WomenClothing.Type" target="Lab3.Thing.Clothes.WomenClothing" relationship="INNER_CLASS">
+      <point x="-44.75" y="-56.0" />
+      <point x="6330.0625" y="1753.0" />
+      <point x="6326.8125" y="1753.0" />
+      <point x="-48.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Location.Plants.Type" target="Lab3.Location.Plants" relationship="INNER_CLASS">
+      <point x="-44.75" y="56.0" />
+      <point x="192.25" y="1763.0" />
+      <point x="209.375" y="1763.0" />
+      <point x="0.0" y="-117.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="1248.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayVeryLoud" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="2330.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Speech.Laugh" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="592.875" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Location" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="7703.046844520928" y="2074.0" />
+      <point x="7703.046844520928" y="-20.0" />
+      <point x="6520.120833333334" y="-20.0" />
+      <point x="77.60000000000036" y="117.0" />
+    </edge>
+    <edge source="Lab3.HarpFactory" target="Lab3.Thing.MusicalInstrument.Harp" relationship="DEPENDENCY">
+      <point x="0.0" y="-31.5" />
+      <point x="6583.3125" y="1723.0" />
+      <point x="5077.099655765898" y="1723.0" />
+      <point x="65.5" y="92.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Speech.Talkable" relationship="REALIZATION">
+      <point x="-31.375" y="-285.0" />
+      <point x="5256.724655765898" y="1109.0" />
+      <point x="5296.266322432565" y="1109.0" />
+      <point x="5296.266322432565" y="989.0" />
+      <point x="5119.932989099232" y="989.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.Harp" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="5090.974655765898" y="2074.0" />
+      <point x="5090.974655765898" y="1753.0" />
+      <point x="4946.099655765898" y="1753.0" />
+      <point x="-65.5" y="92.0" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Thing.MusicalInstrument.MusicalInstrument" relationship="TO_ONE">
+      <point x="-42.75" y="-116.5" />
+      <point x="4304.849655765898" y="1753.0" />
+      <point x="4565.3125" y="1753.0" />
+      <point x="4565.3125" y="1059.0" />
+      <point x="4343.349655765898" y="1059.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Town" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="3346.067677854261" y="2074.0" />
+      <point x="3346.067677854261" y="1743.0" />
+      <point x="4545.3125" y="1743.0" />
+      <point x="4545.3125" y="1069.0" />
+      <point x="4815.266322432565" y="1069.0" />
+      <point x="-74.66666666666697" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.MusicalInstrument" target="Lab3.Thing.Thing" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="4343.349655765898" y="647.0" />
+      <point x="5185.781977911638" y="647.0" />
+      <point x="5185.781977911638" y="557.0" />
+      <point x="6374.505177854261" y="557.0" />
+      <point x="-54.66666666666697" y="69.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="TO_ONE">
+      <point x="-65.5" y="-92.0" />
+      <point x="4946.099655765898" y="1109.0" />
+      <point x="4600.630177854261" y="1109.0" />
+      <point x="4600.630177854261" y="1049.0" />
+      <point x="3631.9694779116376" y="1049.0" />
+      <point x="39.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Speech.BasicSpeech" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="37.5" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Location.Location" target="Lab3.Location.Location.TimeOfDay" relationship="TO_ONE">
+      <point x="38.80000000000018" y="117.0" />
+      <point x="6481.320833333334" y="-20.0" />
+      <point x="6507.187500000001" y="-20.0" />
+      <point x="64.66666666666697" y="-80.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Dirty" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="-43.5" y="-56.0" />
+      <point x="6746.8125" y="1763.0" />
+      <point x="6052.3125" y="1763.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnLap" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="1078.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Speech.Laugh" target="Lab3.Speech.SpeechDecorator" relationship="GENERALIZATION">
+      <point x="-36.75" y="-44.0" />
+      <point x="556.125" y="1763.0" />
+      <point x="577.9835197934549" y="1763.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Speech.Thought" target="Lab3.Speech.SpeechDecorator" relationship="GENERALIZATION">
+      <point x="40.25" y="-44.0" />
+      <point x="459.125" y="1763.0" />
+      <point x="577.9835197934549" y="1763.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Shorty" relationship="GENERALIZATION">
+      <point x="128.25" y="-116.5" />
+      <point x="4475.849655765898" y="1763.0" />
+      <point x="5225.349655765898" y="1763.0" />
+      <point x="-62.75" y="285.0" />
+    </edge>
+    <edge source="Lab3.Person" target="Lab3.Person.Gender" relationship="TO_ONE">
+      <point x="-24.25" y="129.0" />
+      <point x="5095.682989099232" y="597.0" />
+      <point x="4605.099655765898" y="597.0" />
+      <point x="48.25" y="-56.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="-94.125" y="-285.0" />
+      <point x="5193.974655765898" y="1099.0" />
+      <point x="4620.630177854261" y="1099.0" />
+      <point x="4620.630177854261" y="1009.0" />
+      <point x="5012.432989099232" y="1009.0" />
+      <point x="5012.432989099232" y="637.0" />
+      <point x="816.8869693057768" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Clean" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="43.5" y="-56.0" />
+      <point x="6192.8125" y="1753.0" />
+      <point x="6156.8125" y="1753.0" />
+      <point x="6156.8125" y="1079.0" />
+      <point x="6252.400186460122" y="1079.0" />
+      <point x="6252.400186460122" y="949.0" />
+      <point x="5947.046844520928" y="949.0" />
+      <point x="58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Speech.Laugh" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="36.75" y="-44.0" />
+      <point x="629.625" y="1753.0" />
+      <point x="681.9835197934549" y="1753.0" />
+      <point x="681.9835197934549" y="637.0" />
+      <point x="816.8869693057763" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+    <edge source="Lab3.Location.Town" target="Lab3.Location.Location" relationship="GENERALIZATION">
+      <point x="-56.0" y="-117.0" />
+      <point x="4833.932989099232" y="577.0" />
+      <point x="4577.349655765898" y="577.0" />
+      <point x="4577.349655765898" y="0.0" />
+      <point x="4230.125" y="0.0" />
+      <point x="4230.125" y="-20.0" />
+      <point x="6364.920833333334" y="-20.0" />
+      <point x="-77.60000000000036" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.Notebook" target="Lab3.Thing.Thing" relationship="GENERALIZATION">
+      <point x="-48.5" y="-105.0" />
+      <point x="6801.921844520928" y="647.0" />
+      <point x="5185.781977911638" y="647.0" />
+      <point x="5185.781977911638" y="557.0" />
+      <point x="6374.505177854261" y="557.0" />
+      <point x="-54.66666666666697" y="69.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Clothes.Clothes" relationship="TO_MANY">
+      <point x="94.125" y="-285.0" />
+      <point x="5382.224655765898" y="1109.0" />
+      <point x="5544.546844520928" y="1109.0" />
+      <point x="5544.546844520928" y="1069.0" />
+      <point x="5973.781977911638" y="1069.0" />
+      <point x="5973.781977911638" y="969.0" />
+      <point x="5831.046844520928" y="969.0" />
+      <point x="-58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Place" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="2589.25" y="2074.0" />
+      <point x="2589.25" y="597.0" />
+      <point x="4029.2335197934553" y="597.0" />
+      <point x="-66.25" y="129.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.HarpFactory" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="6583.3125" y="2074.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldOnFloor" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="1418.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.Food" target="Lab3.Thing.Food.Edible" relationship="REALIZATION">
+      <point x="-48.5" y="-129.0" />
+      <point x="2927.287155765898" y="587.0" />
+      <point x="2965.75" y="587.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Speech.Question" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="41.0" y="-44.0" />
+      <point x="809.375" y="1753.0" />
+      <point x="777.4278112449706" y="1753.0" />
+      <point x="777.4278112449706" y="637.0" />
+      <point x="816.8869693057763" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+    <edge source="Lab3.Speech.Talkable" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="0.0" y="-31.5" />
+      <point x="5119.932989099232" y="637.0" />
+      <point x="816.8869693057768" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Speech.Thought" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="418.875" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Thing" relationship="TO_MANY">
+      <point x="94.125" y="-285.0" />
+      <point x="5382.224655765898" y="1109.0" />
+      <point x="5544.546844520928" y="1109.0" />
+      <point x="5544.546844520928" y="979.0" />
+      <point x="5539.296844520928" y="979.0" />
+      <point x="5539.296844520928" y="617.0" />
+      <point x="6429.171844520928" y="617.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.WomenClothing" target="Lab3.Thing.Clothes.WomenClothing.Type" relationship="DEPENDENCY">
+      <point x="48.0" y="44.0" />
+      <point x="6422.8125" y="1753.0" />
+      <point x="6419.5625" y="1753.0" />
+      <point x="44.75" y="-56.0" />
+    </edge>
+    <edge source="Lab3.Thing.StealingException" target="Lab3.Thing.Owner" relationship="TO_ONE">
+      <point x="0.0" y="80.5" />
+      <point x="6715.6875" y="0.0" />
+      <point x="6731.270833333334" y="0.0" />
+      <point x="57.25" y="-56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.BasicFood" target="Lab3.Thing.Food.Food" relationship="GENERALIZATION">
+      <point x="-83.66666666666652" y="-44.0" />
+      <point x="2906.833333333334" y="1763.0" />
+      <point x="2918.125" y="1763.0" />
+      <point x="2918.125" y="1109.0" />
+      <point x="2931.8704890992312" y="1109.0" />
+      <point x="2931.8704890992312" y="1009.0" />
+      <point x="2911.1204890992317" y="1009.0" />
+      <point x="-64.66666666666652" y="129.0" />
+    </edge>
+    <edge source="Lab3.Speech.Question" target="Lab3.Speech.SpeechDecorator" relationship="GENERALIZATION">
+      <point x="-41.0" y="-44.0" />
+      <point x="727.375" y="1763.0" />
+      <point x="577.9835197934549" y="1763.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.Location" relationship="GENERALIZATION">
+      <point x="33.125" y="-129.0" />
+      <point x="4128.608519793455" y="235.0" />
+      <point x="4227.380177854261" y="235.0" />
+      <point x="4227.380177854261" y="0.0" />
+      <point x="4230.125" y="0.0" />
+      <point x="4230.125" y="-20.0" />
+      <point x="6364.920833333334" y="-20.0" />
+      <point x="-77.60000000000036" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Clothes" target="Lab3.Thing.Thing" relationship="GENERALIZATION">
+      <point x="0.0" y="-81.0" />
+      <point x="5889.046844520928" y="647.0" />
+      <point x="5185.781977911638" y="647.0" />
+      <point x="5185.781977911638" y="557.0" />
+      <point x="6374.505177854261" y="557.0" />
+      <point x="-54.66666666666697" y="69.0" />
+    </edge>
+    <edge source="Lab3.Location.Town" target="Lab3.Location.Place" relationship="TO_MANY">
+      <point x="56.0" y="-117.0" />
+      <point x="4945.932989099232" y="577.0" />
+      <point x="4922.678635972444" y="577.0" />
+      <point x="4922.678635972444" y="567.0" />
+      <point x="4161.733519793455" y="567.0" />
+      <point x="66.25" y="129.0" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Location.Town" relationship="DEPENDENCY">
+      <point x="42.75" y="-116.5" />
+      <point x="4390.349655765898" y="1763.0" />
+      <point x="4348.281977911638" y="1763.0" />
+      <point x="4348.281977911638" y="1723.0" />
+      <point x="4576.3125" y="1723.0" />
+      <point x="4576.3125" y="1079.0" />
+      <point x="4889.932989099232" y="1079.0" />
+      <point x="0.0" y="117.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Speech.Question" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="768.375" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Location.Ropes.Type" target="Lab3.Location.Ropes" relationship="INNER_CLASS">
+      <point x="44.75" y="56.0" />
+      <point x="72.66666666666697" y="-117.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.ClothesDecorator" target="Lab3.Thing.Clothes.Clothes" relationship="GENERALIZATION">
+      <point x="47.0" y="-44.0" />
+      <point x="6099.3125" y="1089.0" />
+      <point x="6090.796844520928" y="1089.0" />
+      <point x="6090.796844520928" y="959.0" />
+      <point x="5889.046844520928" y="959.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="TO_ONE">
+      <point x="-65.5" y="-92.0" />
+      <point x="4946.099655765898" y="1109.0" />
+      <point x="4600.630177854261" y="1109.0" />
+      <point x="4600.630177854261" y="1049.0" />
+      <point x="3841.5" y="1049.0" />
+      <point x="38.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Wrinkled" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="-43.5" y="-56.0" />
+      <point x="5717.8125" y="1763.0" />
+      <point x="5751.3125" y="1763.0" />
+      <point x="5751.3125" y="1079.0" />
+      <point x="6252.400186460122" y="1079.0" />
+      <point x="6252.400186460122" y="949.0" />
+      <point x="5947.046844520928" y="949.0" />
+      <point x="58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.BasicFood" target="Lab3.Thing.Food.BasicFood.Type" relationship="TO_ONE">
+      <point x="83.66666666666652" y="-44.0" />
+      <point x="3074.166666666667" y="1763.0" />
+      <point x="3062.875" y="1763.0" />
+      <point x="44.75" y="68.0" />
+    </edge>
+    <edge source="Lab3.Location.Place" target="Lab3.Location.Decoration" relationship="TO_MANY">
+      <point x="-99.375" y="-129.0" />
+      <point x="3996.1085197934553" y="255.0" />
+      <point x="3941.380177854261" y="255.0" />
+      <point x="3941.380177854261" y="-20.0" />
+      <point x="3917.3125" y="-20.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Musician" target="Lab3.Thing.StealingException" relationship="DEPENDENCY">
+      <point x="42.75" y="-116.5" />
+      <point x="4390.349655765898" y="1763.0" />
+      <point x="4348.281977911638" y="1763.0" />
+      <point x="4348.281977911638" y="1723.0" />
+      <point x="3717.0" y="1723.0" />
+      <point x="3717.0" y="-10.0" />
+      <point x="5027.5625" y="-10.0" />
+      <point x="5027.5625" y="-30.0" />
+      <point x="6630.6875" y="-30.0" />
+      <point x="-85.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Speech.SpeechDecorator" target="Lab3.Speech.Speech" relationship="TO_ONE">
+      <point x="46.75" y="-31.5" />
+      <point x="624.7335197934549" y="1109.0" />
+      <point x="583.4835197934549" y="1109.0" />
+      <point x="583.4835197934549" y="627.0" />
+      <point x="546.375" y="627.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldInHands" target="Lab3.Thing.MusicalInstrument.HoldBehavior.HoldBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="1248.25" y="1109.0" />
+      <point x="1203.8176778542606" y="1109.0" />
+      <point x="1203.8176778542606" y="1029.0" />
+      <point x="3553.9694779116376" y="1029.0" />
+      <point x="-39.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Ironed" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="43.5" y="-56.0" />
+      <point x="5998.8125" y="1763.0" />
+      <point x="6052.3125" y="1763.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.Wrinkled" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="5761.3125" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.WomenClothing" target="Lab3.Thing.Clothes.Clothes" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="6374.8125" y="1089.0" />
+      <point x="6090.796844520928" y="1089.0" />
+      <point x="6090.796844520928" y="959.0" />
+      <point x="5889.046844520928" y="959.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.Harp" target="Lab3.Thing.MusicalInstrument.MusicalInstrument" relationship="GENERALIZATION">
+      <point x="65.5" y="-92.0" />
+      <point x="5077.099655765898" y="1019.0" />
+      <point x="4408.016322432565" y="1019.0" />
+      <point x="64.66666666666697" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.Fried" target="Lab3.Thing.Food.FoodDecorator" relationship="GENERALIZATION">
+      <point x="-39.5" y="-56.0" />
+      <point x="3396.067677854261" y="1763.0" />
+      <point x="3263.25" y="1763.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Speech.Thought" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="-40.25" y="-44.0" />
+      <point x="378.625" y="1763.0" />
+      <point x="400.125" y="1763.0" />
+      <point x="400.125" y="637.0" />
+      <point x="816.8869693057763" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Town" relationship="TO_ONE">
+      <point x="0.0" y="-56.0" />
+      <point x="6265.766322432565" y="2084.0" />
+      <point x="6262.8125" y="2084.0" />
+      <point x="6262.8125" y="2064.0" />
+      <point x="6268.3125" y="2064.0" />
+      <point x="6268.3125" y="1049.0" />
+      <point x="5925.531977911638" y="1049.0" />
+      <point x="5925.531977911638" y="999.0" />
+      <point x="4964.599655765899" y="999.0" />
+      <point x="74.66666666666697" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Wrinkled" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="43.5" y="-56.0" />
+      <point x="5804.8125" y="1763.0" />
+      <point x="6052.3125" y="1763.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayHeavyMetal" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="2728.317677854261" y="1109.0" />
+      <point x="2304.511969305777" y="1109.0" />
+      <point x="2304.511969305777" y="1019.0" />
+      <point x="3765.5" y="1019.0" />
+      <point x="-38.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.Clean" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="6149.3125" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.Fried" target="Lab3.Thing.Food.Food" relationship="DEPENDENCY">
+      <point x="39.5" y="-56.0" />
+      <point x="3475.067677854261" y="1733.0" />
+      <point x="3547.75" y="1733.0" />
+      <point x="3547.75" y="1099.0" />
+      <point x="3406.567677854261" y="1099.0" />
+      <point x="3406.567677854261" y="1009.0" />
+      <point x="3040.4538224325647" y="1009.0" />
+      <point x="64.66666666666652" y="129.0" />
+    </edge>
+    <edge source="Lab3.Location.Location" target="Lab3.Location.Location.TimeOfDay" relationship="CREATE">
+      <point x="0.0" y="117.0" />
+      <point x="0.0" y="-80.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Person.Gender" relationship="DEPENDENCY">
+      <point x="-94.125" y="-285.0" />
+      <point x="5193.974655765898" y="1099.0" />
+      <point x="4620.630177854261" y="1099.0" />
+      <point x="4620.630177854261" y="1029.0" />
+      <point x="4390.0625" y="1029.0" />
+      <point x="4390.0625" y="999.0" />
+      <point x="4556.849655765898" y="999.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Thing.Owner" target="Lab3.Thing.StealingException" relationship="DEPENDENCY">
+      <point x="-57.25" y="-56.0" />
+      <point x="6616.770833333334" y="-10.0" />
+      <point x="5027.5625" y="-10.0" />
+      <point x="5027.5625" y="-30.0" />
+      <point x="6630.6875" y="-30.0" />
+      <point x="-85.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Shorty" relationship="TO_MANY">
+      <point x="0.0" y="-56.0" />
+      <point x="6265.766322432565" y="2084.0" />
+      <point x="6262.8125" y="2084.0" />
+      <point x="6262.8125" y="2064.0" />
+      <point x="6257.8125" y="2064.0" />
+      <point x="6257.8125" y="1743.0" />
+      <point x="5350.849655765898" y="1743.0" />
+      <point x="62.75" y="285.0" />
+    </edge>
+    <edge source="Lab3.Thing.Notebook" target="Lab3.Thing.KeepingNotes" relationship="REALIZATION">
+      <point x="48.5" y="-105.0" />
+      <point x="6898.921844520928" y="597.0" />
+      <point x="6192.171844520928" y="597.0" />
+      <point x="-45.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Attack" relationship="DEPENDENCY">
+      <point x="-94.125" y="-285.0" />
+      <point x="5193.974655765898" y="1099.0" />
+      <point x="4620.630177854261" y="1099.0" />
+      <point x="4620.630177854261" y="1009.0" />
+      <point x="4174.531977911638" y="1009.0" />
+      <point x="38.0" y="43.5" />
+    </edge>
+    <edge source="Lab3.Hit" target="Lab3.Attack" relationship="REALIZATION">
+      <point x="0.0" y="-80.5" />
+      <point x="3452.25" y="1079.0" />
+      <point x="4098.531977911638" y="1079.0" />
+      <point x="-38.0" y="43.5" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.FormalWear.Type" target="Lab3.Thing.Clothes.FormalWear" relationship="INNER_CLASS">
+      <point x="-44.75" y="56.0" />
+      <point x="1757.5" y="1763.0" />
+      <point x="1771.875" y="1763.0" />
+      <point x="-58.0" y="-44.0" />
+    </edge>
+    <edge source="Lab3.Location.Fence" target="Lab3.Location.Decoration" relationship="REALIZATION">
+      <point x="0.0" y="-117.0" />
+      <point x="3201.787155765898" y="0.0" />
+      <point x="827.166666666667" y="0.0" />
+      <point x="827.166666666667" y="-20.0" />
+      <point x="3844.645833333334" y="-20.0" />
+      <point x="-72.66666666666652" y="31.5" />
+    </edge>
+    <edge source="Lab3.Location.Plants" target="Lab3.Location.Plants.Type" relationship="TO_ONE">
+      <point x="72.66666666666669" y="-117.0" />
+      <point x="44.75" y="56.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Music.Orchestra" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="5211.224655765898" y="2074.0" />
+      <point x="-58.75" y="129.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Thing.Food.Food" relationship="DEPENDENCY">
+      <point x="-94.125" y="-285.0" />
+      <point x="5193.974655765898" y="1099.0" />
+      <point x="4620.630177854261" y="1099.0" />
+      <point x="4620.630177854261" y="1039.0" />
+      <point x="3406.567677854261" y="1039.0" />
+      <point x="3406.567677854261" y="1009.0" />
+      <point x="3040.4538224325647" y="1009.0" />
+      <point x="64.66666666666652" y="129.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.FoodDecorator" target="Lab3.Thing.Food.Food" relationship="GENERALIZATION">
+      <point x="-42.0" y="-56.0" />
+      <point x="3221.25" y="1109.0" />
+      <point x="2931.8704890992312" y="1109.0" />
+      <point x="2931.8704890992312" y="1009.0" />
+      <point x="2911.1204890992317" y="1009.0" />
+      <point x="-64.66666666666652" y="129.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Food.BasicFood" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="2990.5" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Thing.Clothes.Clean" target="Lab3.Thing.Clothes.ClothesDecorator" relationship="GENERALIZATION">
+      <point x="-43.5" y="-56.0" />
+      <point x="6105.8125" y="1763.0" />
+      <point x="6052.3125" y="1763.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.Clothes" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="6692.8125" y="2074.0" />
+      <point x="6692.8125" y="1079.0" />
+      <point x="6252.400186460122" y="1079.0" />
+      <point x="6252.400186460122" y="949.0" />
+      <point x="5947.046844520928" y="949.0" />
+      <point x="58.0" y="81.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.Baked" target="Lab3.Thing.Food.Food" relationship="DEPENDENCY">
+      <point x="-39.5" y="-56.0" />
+      <point x="3176.5" y="1723.0" />
+      <point x="3168.75" y="1723.0" />
+      <point x="3168.75" y="1099.0" />
+      <point x="3406.567677854261" y="1099.0" />
+      <point x="3406.567677854261" y="1009.0" />
+      <point x="3040.4538224325647" y="1009.0" />
+      <point x="64.66666666666652" y="129.0" />
+    </edge>
+    <edge source="Lab3.Thing.StealingException" target="Lab3.Thing.Thing" relationship="TO_ONE">
+      <point x="0.0" y="80.5" />
+      <point x="6715.6875" y="0.0" />
+      <point x="6832.171844520928" y="0.0" />
+      <point x="6832.171844520928" y="225.0" />
+      <point x="6406.838511187594" y="225.0" />
+      <point x="6406.838511187594" y="255.0" />
+      <point x="6429.171844520928" y="255.0" />
+      <point x="0.0" y="-69.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Plants" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="209.375" y="2074.0" />
+      <point x="0.0" y="117.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Hairstyle" relationship="TO_ONE">
+      <point x="94.125" y="-285.0" />
+      <point x="5382.224655765898" y="1109.0" />
+      <point x="5544.546844520928" y="1109.0" />
+      <point x="5544.546844520928" y="979.0" />
+      <point x="6441.171844520928" y="979.0" />
+      <point x="-50.5" y="93.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayCalmly" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="2156.25" y="2074.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Location.Tent" target="Lab3.Location.Decoration" relationship="REALIZATION">
+      <point x="0.0" y="-81.0" />
+      <point x="-62.0" y="0.0" />
+      <point x="827.166666666667" y="0.0" />
+      <point x="827.166666666667" y="-20.0" />
+      <point x="3844.645833333334" y="-20.0" />
+      <point x="-72.66666666666652" y="31.5" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Person" relationship="GENERALIZATION">
+      <point x="31.375" y="-285.0" />
+      <point x="5319.474655765898" y="1079.0" />
+      <point x="5473.3125" y="1079.0" />
+      <point x="5473.3125" y="597.0" />
+      <point x="5144.182989099232" y="597.0" />
+      <point x="24.25" y="129.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Clothes.FormalWear" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="1829.875" y="2074.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Hit" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="3126.5" y="2074.0" />
+      <point x="3126.5" y="1733.0" />
+      <point x="3452.25" y="1733.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Location.Fence" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="2854.5" y="2074.0" />
+      <point x="2854.5" y="1079.0" />
+      <point x="3201.787155765898" y="1079.0" />
+      <point x="0.0" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayQuietly" target="Lab3.Thing.MusicalInstrument.PlayBehavior.PlayBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="2504.25" y="1109.0" />
+      <point x="2304.511969305777" y="1109.0" />
+      <point x="2304.511969305777" y="1019.0" />
+      <point x="3765.5" y="1019.0" />
+      <point x="-38.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Location.Location.TimeOfDay" target="Lab3.Location.Location" relationship="INNER_CLASS">
+      <point x="-64.66666666666697" y="-80.0" />
+      <point x="6377.854166666667" y="-20.0" />
+      <point x="6403.720833333334" y="-20.0" />
+      <point x="-38.80000000000018" y="117.0" />
+    </edge>
+    <edge source="Lab3.Thing.Food.Baked" target="Lab3.Thing.Food.FoodDecorator" relationship="GENERALIZATION">
+      <point x="39.5" y="-56.0" />
+      <point x="3255.5" y="1763.0" />
+      <point x="3263.25" y="1763.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="Lab3.Shorty" target="Lab3.Sleepable" relationship="REALIZATION">
+      <point x="-31.375" y="-285.0" />
+      <point x="5256.724655765898" y="1109.0" />
+      <point x="5296.266322432565" y="1109.0" />
+      <point x="5296.266322432565" y="989.0" />
+      <point x="5383.3125" y="989.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Lab3.Speech.BasicSpeech" target="Lab3.Speech.Speech" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="37.5" y="647.0" />
+      <point x="535.375" y="647.0" />
+      <point x="535.375" y="627.0" />
+      <point x="501.7083333333335" y="627.0" />
+      <point x="-44.666666666666686" y="44.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Thing.Notebook" relationship="CREATE">
+      <point x="-39.33333333333303" y="-56.0" />
+      <point x="6226.432989099232" y="2084.0" />
+      <point x="2167.1204890992312" y="2084.0" />
+      <point x="2167.1204890992312" y="2074.0" />
+      <point x="6246.8125" y="2074.0" />
+      <point x="6246.8125" y="1069.0" />
+      <point x="6850.421844520928" y="1069.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="Lab3.Scene" target="Lab3.Person" relationship="DEPENDENCY">
+      <point x="39.33333333333303" y="-56.0" />
+      <point x="6305.099655765898" y="2084.0" />
+      <point x="7215.650186460122" y="2084.0" />
+      <point x="7215.650186460122" y="2074.0" />
+      <point x="7311.099655765899" y="2074.0" />
+      <point x="7311.099655765899" y="567.0" />
+      <point x="5192.682989099232" y="567.0" />
+      <point x="72.75" y="129.0" />
+    </edge>
+    <edge source="Lab3.Speech.Exclamation" target="Lab3.Speech.Speech" relationship="DEPENDENCY">
+      <point x="45.75" y="-44.0" />
+      <point x="1007.625" y="1763.0" />
+      <point x="966.875" y="1763.0" />
+      <point x="966.875" y="637.0" />
+      <point x="816.8869693057763" y="637.0" />
+      <point x="816.8869693057763" y="627.0" />
+      <point x="591.0416666666665" y="627.0" />
+      <point x="44.66666666666663" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.15052791591662815" showDependencies="true" x="3372.4780105308255" y="1295.5828093682342" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
