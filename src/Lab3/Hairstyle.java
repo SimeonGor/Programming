@@ -2,7 +2,10 @@ package Lab3;
 
 public enum Hairstyle {
     PROTRUDING_TUFT("торчащий вихор"),
-    OTHER("другая");
+    PIGTAIL("косичка"),
+    SHORT("короткие волосы"),
+    MESSY("растрепанная прическа"),
+    OTHER("другая прическа");
 
     private final String description;
 
