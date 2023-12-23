@@ -257,7 +257,7 @@ public class Scene {
         greenTown.getPlaces().get("square").addDecorations(new Ropes(Ropes.Type.LANTERNS));
         System.out.println(greenTown);
 
-        greenTown.getPlaces().get("square").setTimeOfDay(new Place.TimeOfDay(16, 30));
+        greenTown.getPlaces().get("square").getTimeOfDay().setTime(16, 30);
         orchestra.play();
 
         gvozdik.goTo(greenTown.getPlaces().get("square"));

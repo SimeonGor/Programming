@@ -5,12 +5,17 @@ import java.util.List;
 import java.util.Vector;
 
 public class Place extends Location implements Decoratable {
-    public static class TimeOfDay {
-        private final int hours;
-        private final int minutes;
+    public class TimeOfDay {
+        private int hours;
+        private int minutes;
         public TimeOfDay(int hours, int minutes) {
             this.hours = hours % 24;
             this.minutes = minutes % 60;
+        }
+
+        public void setTime(int hours, int time) {
+            this.hours = hours;
+            this.minutes = minutes;
         }
 
         @Override
@@ -33,7 +38,7 @@ public class Place extends Location implements Decoratable {
         }
     }
     private List<Decoration> decorations = new Vector<>();
-    private TimeOfDay timeOfDay;
+    private TimeOfDay timeOfDay = new TimeOfDay(0, 0);
 
     public Place(String description, Decoration ... decorations) {
         this.description = description;
