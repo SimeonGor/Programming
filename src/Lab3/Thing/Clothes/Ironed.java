@@ -7,7 +7,7 @@ public class Ironed extends ClothesDecorator {
 
     @Override
     public String getDescription() {
-        return "ironed" + clothes.getDescription();
+        return "ironed " + clothes.getDescription();
     }
 
     @Override

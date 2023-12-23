@@ -7,7 +7,7 @@ public class Wrinkled extends ClothesDecorator {
 
     @Override
     public String getDescription() {
-        return "wrinkled" + clothes.getDescription();
+        return "wrinkled " + clothes.getDescription();
     }
 
     @Override

@@ -7,7 +7,7 @@ public class Dirty extends ClothesDecorator {
 
     @Override
     public String getDescription() {
-        return "dirty" + clothes.getDescription();
+        return "dirty " + clothes.getDescription();
     }
 
     @Override
