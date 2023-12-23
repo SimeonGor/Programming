@@ -5,52 +5,11 @@ import java.util.List;
 import java.util.Vector;
 
 public class Place extends Location implements Decoratable {
-    public class TimeOfDay {
-        private int hours;
-        private int minutes;
-        public TimeOfDay(int hours, int minutes) {
-            this.hours = hours % 24;
-            this.minutes = minutes % 60;
-        }
-
-        public void setTime(int hours, int time) {
-            this.hours = hours;
-            this.minutes = minutes;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || o.getClass() != this.getClass()) return false;
-            TimeOfDay other = (TimeOfDay) o;
-            return this.minutes == other.minutes
-                    && this.hours == other.hours;
-        }
-
-        @Override
-        public int hashCode() {
-            return hours * 60 + minutes;
-        }
-
-        @Override
-        public String toString() {
-            return hours % 12 + ":" + minutes + (hours < 12 ? "am" : "pm");
-        }
-    }
     private List<Decoration> decorations = new Vector<>();
-    private TimeOfDay timeOfDay = new TimeOfDay(0, 0);
 
     public Place(String description, Decoration ... decorations) {
         this.description = description;
         this.setDecorations(decorations);
-    }
-
-    public void setTimeOfDay(TimeOfDay timeOfDay) {
-        this.timeOfDay = timeOfDay;
-    }
-
-    public TimeOfDay getTimeOfDay() {
-        return timeOfDay;
     }
 
     @Override
